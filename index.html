@@ -65,7 +65,6 @@
             background-color: #c5a365;
             margin: 2rem 0;
         }
-        /* 本の表紙風スタイル */
         .book-shadow {
             box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -93,7 +92,8 @@
                     <a href="#collaboration" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">ご一緒できること</a>
                     <a href="#lifestyle" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">ライフスタイル</a>
                     <a href="#history" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">歩み</a>
-                    <a href="#contact" class="px-6 py-2 bg-gray-900 text-white text-sm font-medium rounded-sm hover:bg-accent transition tracking-wider">お問い合わせ</a>
+                    <!-- お問い合わせボタンのリンクを外部フォームへ変更 -->
+                    <a href="https://yabemasaru23-source.github.io/yabe/contact.html" class="px-6 py-2 bg-gray-900 text-white text-sm font-medium rounded-sm hover:bg-accent transition tracking-wider">お問い合わせ</a>
                 </div>
                 <div class="md:hidden text-gray-600">
                     <i class="fa-solid fa-bars text-xl"></i>
@@ -108,7 +108,6 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                 
                 <div class="order-2 md:order-1 animate-fade-in">
-                    <!-- ギネスバッジ -->
                     <div class="inline-flex items-center gap-2 border-b border-accent pb-1 mb-6">
                         <i class="fa-solid fa-medal text-accent animate-bounce-slow"></i>
                         <span class="text-xs font-bold tracking-widest text-accent uppercase">Guinness World Record Holder</span>
@@ -126,15 +125,15 @@
                     </p>
 
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="#contact" class="inline-block bg-accent text-white px-8 py-4 text-center hover:bg-opacity-90 transition duration-300 shadow-lg shadow-accent/20 rounded-sm">
-                            パートナーとして相談する
+                        <!-- ボタンのリンク先をお問い合わせフォームへ変更 -->
+                        <a href="https://yabemasaru23-source.github.io/yabe/contact.html" class="inline-block bg-accent text-white px-8 py-4 text-center hover:bg-opacity-90 transition duration-300 shadow-lg shadow-accent/20 rounded-sm font-bold">
+                            <i class="fa-solid fa-file-pen mr-2"></i>パートナーとして相談する
                         </a>
                         <a href="#about" class="inline-block border border-gray-300 px-8 py-4 text-center text-gray-600 hover:border-gray-900 hover:text-gray-900 transition duration-300 rounded-sm">
                             プロフィールを見る
                         </a>
                     </div>
 
-                    <!-- 2026 ステータス -->
                     <div class="mt-12 bg-white border-l-4 border-green-500 p-4 shadow-sm inline-block max-w-md">
                         <p class="text-sm font-bold text-gray-800 flex items-center">
                             <i class="fa-regular fa-calendar-check mr-2 text-green-600"></i>
@@ -150,10 +149,8 @@
                 <div class="order-1 md:order-2 relative animate-fade-in" style="animation-delay: 0.2s;">
                     <div class="absolute top-10 -right-10 w-full h-full bg-white border border-gray-100 shadow-xl z-0 hidden md:block"></div>
                     <div class="relative z-10 aspect-[4/5] bg-gray-200 overflow-hidden shadow-2xl">
-                        <!-- メイン画像: プロフェッショナルなイメージ画像に差し替え -->
                         <img src="yabe.png" alt="矢部大 ポートレート" class="w-full h-full object-cover hover:grayscale-0 transition duration-700">
                     </div>
-                    <!-- SNSリンク -->
                     <div class="absolute -bottom-6 -left-6 bg-white p-4 shadow-lg flex gap-4 z-20 border border-gray-100">
                         <a href="https://www.facebook.com/masaru009" target="_blank" class="text-gray-400 hover:text-[#1877F2] transition text-xl"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="https://x.com/yabemasaru23" target="_blank" class="text-gray-400 hover:text-black transition text-xl"><i class="fa-brands fa-x-twitter"></i></a>
@@ -229,7 +226,6 @@
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <!-- Book 1: スーパータイムマネジメント -->
                 <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
                     <div class="aspect-[2/3] bg-gray-100 mb-4 flex items-center justify-center relative overflow-hidden">
                         <img src="time.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="スーパータイムマネジメント">
@@ -241,7 +237,6 @@
                     <p class="text-xs text-gray-500">時間創造部</p>
                 </div>
 
-                <!-- Book 2: 最強営業の法則 -->
                 <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
                     <div class="aspect-[2/3] bg-gray-100 mb-4 flex items-center justify-center relative overflow-hidden">
                         <img src="tata.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="最強営業の法則">
@@ -253,7 +248,6 @@
                     <p class="text-xs text-gray-500">4000名の経営トップが採用</p>
                 </div>
 
-                <!-- Book 3: バク転 -->
                 <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
                     <div class="aspect-[2/3] bg-gray-100 mb-4 flex items-center justify-center relative overflow-hidden">
                         <img src="10oku.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="バク転だけで10億円">
@@ -265,7 +259,6 @@
                     <p class="text-xs text-gray-500">何もできなかった僕が...</p>
                 </div>
 
-                <!-- Book 4: 最新刊 -->
                 <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
                     <div class="aspect-[2/3] bg-accent/10 mb-4 flex items-center justify-center relative overflow-hidden border border-accent/20">
                         <img src="lastlove.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="4冊目の著書">
@@ -294,7 +287,6 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
                 <div class="bg-gray-50 p-10 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
                         <i class="fa-solid fa-rocket"></i>
@@ -306,7 +298,6 @@
                     <span class="text-xs font-bold text-accent tracking-widest uppercase">For New Business</span>
                 </div>
 
-                <!-- Card 2 -->
                 <div class="bg-gray-50 p-10 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
                         <i class="fa-solid fa-people-arrows"></i>
@@ -318,7 +309,6 @@
                     <span class="text-xs font-bold text-accent tracking-widest uppercase">For Management</span>
                 </div>
 
-                <!-- Card 3 -->
                 <div class="bg-gray-50 p-10 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
                         <i class="fa-solid fa-door-open"></i>
@@ -349,37 +339,31 @@
                 </div>
             </div>
 
-            <!-- フレンドリーな写真配置（画像URL更新済み） -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-                <!-- 写真: ラーメン -->
                 <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
                     <img src="ra.png" alt="ラーメン" class="w-full h-full object-cover img-hover">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                         <p class="text-white font-bold tracking-widest text-sm"><i class="fa-solid fa-bowl-food mr-2"></i>RAMEN</p>
                     </div>
                 </div>
-                <!-- 写真: ビジネス -->
                 <div class="col-span-2 row-span-2 group relative overflow-hidden bg-gray-100 rounded-lg">
                     <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&w=1200&q=80" alt="ビジネス" class="w-full h-full object-cover img-hover">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                         <p class="text-white font-bold tracking-widest text-lg">BUSINESS</p>
                     </div>
                 </div>
-                <!-- 写真: サウナ -->
                 <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
                     <img src="https://images.unsplash.com/photo-1571327073757-71d13c24de30?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="サウナ・ビール" class="w-full h-full object-cover img-hover">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                         <p class="text-white font-bold tracking-widest text-sm"><i class="fa-solid fa-beer-mug-empty mr-2"></i>SAUNA & BEER</p>
                     </div>
                 </div>
-                <!-- 写真: 仲間 -->
                 <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
                     <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80" alt="仲間" class="w-full h-full object-cover img-hover">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                         <p class="text-white font-bold tracking-widest text-sm"><i class="fa-solid fa-users mr-2"></i>FRIENDS</p>
                     </div>
                 </div>
-                <!-- 写真: ジム -->
                 <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
                     <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="ジム" class="w-full h-full object-cover img-hover">
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
@@ -400,8 +384,6 @@
             </div>
 
             <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 before:to-transparent">
-                
-                <!-- 1993: JAC -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                         <i class="fa-solid fa-person-running text-gray-500 text-sm"></i>
@@ -413,7 +395,6 @@
                     </div>
                 </div>
 
-                <!-- 2000: 修行 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-laptop-code text-gray-500 text-sm"></i>
@@ -425,7 +406,6 @@
                     </div>
                 </div>
 
-                <!-- 2002: 設立 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-flag text-accent text-sm"></i>
@@ -437,7 +417,6 @@
                     </div>
                 </div>
 
-                <!-- 2006: 多角化 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-utensils text-gray-500 text-sm"></i>
@@ -449,7 +428,6 @@
                     </div>
                 </div>
 
-                <!-- 2012: ギネス -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-accent shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-medal text-white text-sm"></i>
@@ -461,7 +439,6 @@
                     </div>
                 </div>
 
-                <!-- 2013: 社会貢献 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-hand-holding-heart text-gray-500 text-sm"></i>
@@ -473,7 +450,6 @@
                     </div>
                 </div>
 
-                <!-- 2016: NY -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-earth-americas text-gray-500 text-sm"></i>
@@ -485,7 +461,6 @@
                     </div>
                 </div>
 
-                <!-- 2020: コロナ -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-chart-line text-gray-500 text-sm"></i>
@@ -497,7 +472,6 @@
                     </div>
                 </div>
 
-                <!-- 2021: Exit -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-handshake text-gray-500 text-sm"></i>
@@ -509,7 +483,6 @@
                     </div>
                 </div>
 
-                <!-- 2024: 卒業 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-door-open text-gray-500 text-sm"></i>
@@ -521,7 +494,6 @@
                     </div>
                 </div>
 
-                <!-- 2026: 現在 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-900 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-person-walking-arrow-right text-white text-sm"></i>
@@ -534,12 +506,11 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- コンタクト -->
+    <!-- コンタクトセクション -->
     <section id="contact" class="py-24 bg-white border-t border-gray-100">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-5xl font-bold mb-6 font-serif">Let's Create Together.</h2>
@@ -549,15 +520,23 @@
             </p>
 
             <div class="flex flex-col sm:flex-row justify-center gap-6 mb-16">
-                <a href="mailto:yabemasaru23@gmail.com" class="bg-gray-900 text-white px-10 py-4 font-bold hover:bg-accent transition shadow-lg flex items-center justify-center gap-3 rounded-sm">
-                    <i class="fa-regular fa-envelope"></i> メールで問い合わせる
+                <!-- 1. お問い合わせフォーム（一番目立たせる） -->
+                <a href="https://yabemasaru23-source.github.io/yabe/contact.html" class="bg-accent text-white px-10 py-4 font-bold hover:bg-opacity-90 transition shadow-lg flex items-center justify-center gap-3 rounded-sm text-lg">
+                    <i class="fa-solid fa-paper-plane"></i> お問い合わせフォーム
                 </a>
+                
+                <!-- 2. メール -->
+                <a href="mailto:yabemasaru23@gmail.com" class="bg-gray-900 text-white px-10 py-4 font-bold hover:bg-gray-700 transition shadow-lg flex items-center justify-center gap-3 rounded-sm">
+                    <i class="fa-regular fa-envelope"></i> メールを送る
+                </a>
+                
+                <!-- 3. Facebook -->
                 <a href="https://www.facebook.com/masaru009" target="_blank" class="bg-[#1877F2] text-white px-10 py-4 font-bold hover:bg-blue-700 transition shadow-lg flex items-center justify-center gap-3 rounded-sm">
-                    <i class="fa-brands fa-facebook-f"></i> Facebookで連絡する
+                    <i class="fa-brands fa-facebook-f"></i> Facebook
                 </a>
             </div>
 
-            <div class="bg-gray-50 p-8 md:p-12 border border-gray-100">
+            <div class="bg-gray-50 p-8 md:p-12 border border-gray-100 text-center">
                 <h3 class="text-lg font-bold mb-6 text-gray-900">現在、このようなお話をお待ちしています</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 text-left max-w-2xl mx-auto">
                     <div class="flex items-center text-gray-700">
@@ -595,6 +574,7 @@
     <!-- スムーズスクロール -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // #で始まる内部リンクのみスムーズスクロールを適用
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -618,8 +598,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
