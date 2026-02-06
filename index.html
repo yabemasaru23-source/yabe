@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>矢部 大 | 公式ポートフォリオ</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>矢部 大 | 現場主義と経営の二刀流プロデューサー</title>
+    <meta name="description" content="【矢部大 公式サイト】現場主義と経営の二刀流プロデューサー。年商14億の実績、ギネス記録保持。AI営業DX、陰陽五行、最強のクロージング、げいのう労災など、多角的な視点でビジネスを加速させます。セミナー・コンサルタント依頼受付中。">
+    <meta name="keywords" content="矢部大, Masaru Yabe, 経営コンサルタント, プロデューサー, 陰陽五行, AI営業, 営業クロージング, げいのう労災, 講演家, スタントマン, バク転, ギネス記録">
+    <meta name="author" content="矢部 大">
+    
+    <!-- OGP (Open Graph Protocol) for SNS -->
+    <meta property="og:title" content="矢部 大 | 現場主義と経営の二刀流プロデューサー">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yabemasaru23-source.github.io/yabe/">
+    <meta property="og:image" content="yabe.png">
+    <meta property="og:description" content="年商14億の実績と現場力を兼ね備えたプロデューサー。AI×陰陽五行×営業力であなたのビジネスを次のステージへ。">
+    <meta property="og:site_name" content="矢部大 公式ポートフォリオ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@yabemasaru23">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
@@ -23,6 +39,7 @@
                         accent: '#c5a365', 
                         accentLight: '#f0e6d2',
                         sub: '#f9fafb',
+                        line: '#06C755', 
                     },
                     fontFamily: {
                         sans: ['"Noto Sans JP"', 'sans-serif'],
@@ -88,12 +105,10 @@
                 </div>
                 <div class="hidden md:flex space-x-8 lg:space-x-10">
                     <a href="#about" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">プロフィール</a>
+                    <a href="#collaboration" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">提供できる価値</a>
                     <a href="#books" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">書籍</a>
-                    <a href="#collaboration" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">ご一緒できること</a>
-                    <a href="#lifestyle" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">ライフスタイル</a>
                     <a href="#history" class="text-sm font-medium text-gray-600 hover:text-accent transition tracking-wider">歩み</a>
-                    <!-- お問い合わせボタンのリンクを外部フォームへ変更 -->
-                    <a href="https://yabemasaru23-source.github.io/yabe/contact.html" class="px-6 py-2 bg-gray-900 text-white text-sm font-medium rounded-sm hover:bg-accent transition tracking-wider">お問い合わせ</a>
+                    <a href="#contact" class="px-6 py-2 bg-gray-900 text-white text-sm font-medium rounded-sm hover:bg-accent transition tracking-wider">お問い合わせ</a>
                 </div>
                 <div class="md:hidden text-gray-600">
                     <i class="fa-solid fa-bars text-xl"></i>
@@ -114,47 +129,43 @@
                     </div>
 
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 text-gray-900">
-                        感動と算盤の<br>
+                        「現場主義」と「経営」の<br>
                         <span class="text-accent">二刀流</span>プロデューサー
                     </h1>
                     
                     <p class="text-gray-600 text-lg mb-10 leading-relaxed">
-                        あなたのビジネスに「熱狂」と「勝算」を。<br>
-                        常識にとらわれない発想と、泥臭い現場力で<br>
-                        新しいステージへの扉を一緒に開きませんか？
+                        年商14億の実績、4年間のPMI経験。<br>
+                        そして、陰陽五行とAIを駆使した最新の戦略。<br>
+                        「現場の泥臭さ」と「経営の数字」を知り尽くした男が、<br>
+                        あなたのビジネスを次のステージへ押し上げます。
                     </p>
 
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <!-- ボタンのリンク先をお問い合わせフォームへ変更 -->
-                        <a href="https://yabemasaru23-source.github.io/yabe/contact.html" class="inline-block bg-accent text-white px-8 py-4 text-center hover:bg-opacity-90 transition duration-300 shadow-lg shadow-accent/20 rounded-sm font-bold">
-                            <i class="fa-solid fa-file-pen mr-2"></i>パートナーとして相談する
+                    <div class="flex flex-col sm:flex-row gap-4 items-start">
+                        <!-- LINEボタン -->
+                        <a href="https://line.me/R/ti/p/%40467esgfi" target="_blank" class="bg-line text-white px-6 py-4 text-center hover:bg-opacity-90 transition duration-300 shadow-lg shadow-line/20 rounded-sm font-bold flex flex-col items-center justify-center min-w-[240px]">
+                            <div class="flex items-center mb-1">
+                                <i class="fa-brands fa-line mr-2 text-xl"></i>
+                                <span>LINEで直接連絡する</span>
+                            </div>
+                            <span class="text-xs font-normal opacity-90">矢部大 公式LINE 「時間革命哲学」</span>
                         </a>
-                        <a href="#about" class="inline-block border border-gray-300 px-8 py-4 text-center text-gray-600 hover:border-gray-900 hover:text-gray-900 transition duration-300 rounded-sm">
-                            プロフィールを見る
+                        <a href="#contact" class="inline-block bg-accent text-white px-8 py-4 text-center hover:bg-opacity-90 transition duration-300 shadow-lg shadow-accent/20 rounded-sm font-bold mt-0 h-full flex items-center justify-center">
+                            <i class="fa-solid fa-file-pen mr-2"></i>フォームで相談
                         </a>
-                    </div>
-
-                    <div class="mt-12 bg-white border-l-4 border-green-500 p-4 shadow-sm inline-block max-w-md">
-                        <p class="text-sm font-bold text-gray-800 flex items-center">
-                            <i class="fa-regular fa-calendar-check mr-2 text-green-600"></i>
-                            2026年1月〜 フリーになりました！
-                        </p>
-                        <p class="text-xs text-gray-500 mt-1">
-                            特定の組織を離れ、完全フリーハンドの状態です。<br>
-                            今なら、あなたのプロジェクトにフルコミットで参画可能です。
-                        </p>
                     </div>
                 </div>
 
-                <div class="order-1 md:order-2 relative animate-fade-in" style="animation-delay: 0.2s;">
-                    <div class="absolute top-10 -right-10 w-full h-full bg-white border border-gray-100 shadow-xl z-0 hidden md:block"></div>
-                    <div class="relative z-10 aspect-[4/5] bg-gray-200 overflow-hidden shadow-2xl">
-                        <img src="yabe.png" alt="矢部大 ポートレート" class="w-full h-full object-cover hover:grayscale-0 transition duration-700">
-                    </div>
-                    <div class="absolute -bottom-6 -left-6 bg-white p-4 shadow-lg flex gap-4 z-20 border border-gray-100">
-                        <a href="https://www.facebook.com/masaru009" target="_blank" class="text-gray-400 hover:text-[#1877F2] transition text-xl"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://x.com/yabemasaru23" target="_blank" class="text-gray-400 hover:text-black transition text-xl"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="https://www.instagram.com/masaru_yabe/" target="_blank" class="text-gray-400 hover:text-pink-600 transition text-xl"><i class="fa-brands fa-instagram"></i></a>
+                <div class="order-1 md:order-2 relative animate-fade-in flex justify-center md:justify-end" style="animation-delay: 0.2s;">
+                    <div class="relative w-3/4 md:w-2/3 lg:w-3/5">
+                        <div class="absolute top-6 -right-6 w-full h-full bg-white border border-gray-100 shadow-xl z-0 hidden md:block"></div>
+                        <div class="relative z-10 aspect-[4/5] bg-gray-200 overflow-hidden shadow-2xl">
+                            <img src="yabe.png" alt="矢部大 ポートレート" class="w-full h-full object-cover hover:grayscale-0 transition duration-700">
+                        </div>
+                        <div class="absolute -bottom-4 -left-4 bg-white p-3 shadow-lg flex gap-4 z-20 border border-gray-100">
+                            <a href="https://www.facebook.com/masaru009" target="_blank" class="text-gray-400 hover:text-[#1877F2] transition text-lg"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://x.com/yabemasaru23" target="_blank" class="text-gray-400 hover:text-black transition text-lg"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/masaru_yabe/" target="_blank" class="text-gray-400 hover:text-pink-600 transition text-lg"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -182,7 +193,8 @@
                         <strong>「常識の逆」を行くのが大好きです。</strong>
                     </p>
                     <p>
-                        M&AによるExitも、組織統合の苦労も味わい尽くし、2026年、私は再び「個」になりました。
+                        M&AによるExitを経て、4年間の組織統合（PMI）期間を完遂。
+                        2026年、私は再び「個」になりました。
                         面白い人たちと、新しい「ワクワク」を創りたい。ただそれだけです。
                     </p>
                 </div>
@@ -216,8 +228,69 @@
         </div>
     </section>
 
-    <!-- 書籍セクション -->
-    <section id="books" class="py-20 bg-gray-50">
+    <!-- コラボレーション・できること -->
+    <section id="collaboration" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-accent text-sm font-bold tracking-widest block mb-2">SERVICES</span>
+                <h2 class="text-3xl font-bold">矢部大が提供できる価値</h2>
+                <div class="divider mx-auto"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    実績（過去）と最新技術（未来）、そして人間力。<br>
+                    これらを掛け合わせることで、あなたのビジネスを加速させます。
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- 1. 営業・クロージング -->
+                <div class="bg-white p-8 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
+                    <div class="w-14 h-14 bg-gray-50 rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <h3 class="serif-text text-lg font-bold mb-3">最強の営業<br>クロージング</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        年商14億を築き上げた「戦わずして売る」ノウハウ。法人・個人を問わず、成約率を劇的に高めるクロージングの極意を伝授・代行します。
+                    </p>
+                </div>
+
+                <!-- 2. AI活用 -->
+                <div class="bg-white p-8 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
+                    <div class="w-14 h-14 bg-gray-50 rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="serif-text text-lg font-bold mb-3">AIでの<br>営業活動・効率化</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        泥臭い営業だけではありません。AIを活用したリスト作成、アプローチ、業務自動化など、最新テクノロジーで「勝てる営業組織」を作ります。
+                    </p>
+                </div>
+
+                <!-- 3. 陰陽五行 -->
+                <div class="bg-white p-8 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
+                    <div class="w-14 h-14 bg-gray-50 rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
+                        <i class="fa-solid fa-yin-yang"></i>
+                    </div>
+                    <h3 class="serif-text text-lg font-bold mb-3">陰陽五行<br>ビジネス帝王学</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        経営はタイミングと人が全て。陰陽五行の知見を用い、攻める時期、引く時期、そして最適な人材配置（HR）を戦略的にアドバイスします。
+                    </p>
+                </div>
+
+                <!-- 4. げいのう労災 -->
+                <div class="bg-white p-8 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
+                    <div class="w-14 h-14 bg-gray-50 rounded-full flex items-center justify-center mb-6 text-red-500 text-2xl shadow-sm">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <h3 class="serif-text text-lg font-bold mb-3">げいのう労災<br>（特別加入制度）</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        エンタメ業界のフリーランスを守るためのインフラ整備。アクション業界出身だからこそ分かる「現場の安心」を提供し続けます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 書籍セクション（Amazonリンク更新） -->
+    <section id="books" class="py-20 bg-white">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-12">
                 <span class="text-accent text-sm font-bold tracking-widest block mb-2">BOOKS</span>
@@ -226,7 +299,8 @@
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
+                <!-- Book 1: スーパータイムマネジメント -->
+                <div class="bg-white p-4 text-center book-shadow group relative border border-gray-100 flex flex-col h-full">
                     <div class="aspect-[2/3] bg-gray-100 mb-4 flex items-center justify-center relative overflow-hidden">
                         <img src="time.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="スーパータイムマネジメント">
                         <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
@@ -234,10 +308,16 @@
                         </div>
                     </div>
                     <h4 class="font-bold text-sm mb-1 text-gray-900 leading-tight">スーパータイム<br>マネジメント</h4>
-                    <p class="text-xs text-gray-500">時間創造部</p>
+                    <p class="text-xs text-gray-500 mb-4">時間創造部</p>
+                    <div class="mt-auto">
+                        <a href="https://www.amazon.co.jp/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88-%E6%99%82%E9%96%93%E5%89%B5%E9%80%A0%E9%83%A8-%E7%9F%A2%E9%83%A8-%E5%A4%A7-ebook/dp/B00D72CLUA/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=YFVP9O8DBTJM&dib=eyJ2IjoiMSJ9.M6TPQ1lKPDLTXVTrmgQwSDpDvYviPA2dFjAoHoUoNtNiNDO7xd7aqObeSRXLBwzWmm9-60Jpf_AIJ8GKpLC9zRn-JEkv4xFWgqpelqdXaM_wNo7apCAGPj1amt8cv5d0LjZSI0J9WaWKyF-bx2tt-deS17aWBZAwudhlI8eH_VnWuH4pzoFS8GGPnU1yAPgVPPndprHCHNuXaB4G5pNc0hVo3DDxUrcGRHBfZBoAuXc.W7VQCFwXI-Ctbf0m31L8MSXlT3A3Lya4v7qTe574U3w&dib_tag=se&keywords=%E6%99%82%E9%96%93%E5%89%B5%E9%80%A0%E9%83%A8&qid=1770336626&s=books&sprefix=%E6%99%82%E9%96%93%E5%89%B5%E9%80%A0%E9%83%A8%2Cstripbooks%2C159&sr=1-1" target="_blank" class="inline-flex items-center text-xs font-bold text-gray-500 hover:text-[#FF9900] transition">
+                            <i class="fa-brands fa-amazon mr-1"></i> Amazonで購入
+                        </a>
+                    </div>
                 </div>
 
-                <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
+                <!-- Book 2: 最強営業の法則 -->
+                <div class="bg-white p-4 text-center book-shadow group relative border border-gray-100 flex flex-col h-full">
                     <div class="aspect-[2/3] bg-gray-100 mb-4 flex items-center justify-center relative overflow-hidden">
                         <img src="tata.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="最強営業の法則">
                         <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
@@ -245,10 +325,16 @@
                         </div>
                     </div>
                     <h4 class="font-bold text-sm mb-1 text-gray-900 leading-tight">戦わずして売り続ける<br>最強営業の法則</h4>
-                    <p class="text-xs text-gray-500">4000名の経営トップが採用</p>
+                    <p class="text-xs text-gray-500 mb-4">4000名の経営トップが採用</p>
+                    <div class="mt-auto">
+                        <a href="https://www.amazon.co.jp/4000%E5%90%8D%E3%81%AE%E7%B5%8C%E5%96%B6%E3%83%88%E3%83%83%E3%83%97%E3%81%8C%E6%8E%A1%E7%94%A8%E3%81%97%E3%81%9F-%E6%88%A6%E3%82%8F%E3%81%9A%E3%81%97%E3%81%A6%E5%A3%B2%E3%82%8A%E7%B6%9A%E3%81%91%E3%82%8B%E6%9C%80%E5%BC%B7%E5%96%B6%E6%A5%AD%E3%81%AE%E6%B3%95%E5%89%87-%E7%9F%A2%E9%83%A8-%E5%A4%A7/dp/4426111188/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2GHDQJBZBHSAB&dib=eyJ2IjoiMSJ9.suD7nmGMpzxbUGQJIvs9bbWr0R0D5wr3tcwRxj2zBmrGjHj071QN20LucGBJIEps.066LbMuqka_fbBinfXVzyPb-p9JnoGBm9mKLHOh_YE0&dib_tag=se&keywords=%E6%9C%80%E5%BC%B7%E5%96%B6%E6%A5%AD%E6%B3%95%E5%89%87+%E7%9F%A2%E9%83%A8%E5%A4%A7&qid=1770336647&s=books&sprefix=%E6%9C%80%E5%BC%B7%E5%96%B6%E6%A5%AD%E6%B3%95%E5%89%87+%E7%9F%A2%E9%83%A8%E5%A4%A7%2Cstripbooks%2C161&sr=1-1" target="_blank" class="inline-flex items-center text-xs font-bold text-gray-500 hover:text-[#FF9900] transition">
+                            <i class="fa-brands fa-amazon mr-1"></i> Amazonで購入
+                        </a>
+                    </div>
                 </div>
 
-                <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
+                <!-- Book 3 -->
+                <div class="bg-white p-4 text-center book-shadow group relative border border-gray-100 flex flex-col h-full">
                     <div class="aspect-[2/3] bg-gray-100 mb-4 flex items-center justify-center relative overflow-hidden">
                         <img src="10oku.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="バク転だけで10億円">
                         <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
@@ -256,10 +342,16 @@
                         </div>
                     </div>
                     <h4 class="font-bold text-sm mb-1 text-gray-900 leading-tight">バク転だけで<br>10億円稼げたわけ</h4>
-                    <p class="text-xs text-gray-500">何もできなかった僕が...</p>
+                    <p class="text-xs text-gray-500 mb-4">何もできなかった僕が...</p>
+                    <div class="mt-auto">
+                        <a href="https://www.amazon.co.jp/dp/4862804594/" target="_blank" class="inline-flex items-center text-xs font-bold text-gray-500 hover:text-[#FF9900] transition">
+                            <i class="fa-brands fa-amazon mr-1"></i> Amazonで購入
+                        </a>
+                    </div>
                 </div>
 
-                <div class="bg-white p-4 text-center book-shadow group cursor-pointer">
+                <!-- Book 4 -->
+                <div class="bg-white p-4 text-center book-shadow group relative border border-gray-100 flex flex-col h-full">
                     <div class="aspect-[2/3] bg-accent/10 mb-4 flex items-center justify-center relative overflow-hidden border border-accent/20">
                         <img src="lastlove.png" class="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="4冊目の著書">
                         <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
@@ -267,107 +359,11 @@
                         </div>
                     </div>
                     <h4 class="font-bold text-sm mb-1 text-gray-900 leading-tight">結局好かれることが<br>最強の武器になる</h4>
-                    <p class="text-xs text-gray-500">好かれる法則</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- コラボレーション -->
-    <section id="collaboration" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16">
-                <span class="text-accent text-sm font-bold tracking-widest block mb-2">COLLABORATION</span>
-                <h2 class="text-3xl font-bold">矢部大と、ご一緒しませんか？</h2>
-                <div class="divider mx-auto"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">
-                    経営コンサルタントとして、時には共同事業者として。<br>
-                    あなたのビジネスに私が加わることで、こんな化学反応を起こせます。
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-gray-50 p-10 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
-                        <i class="fa-solid fa-rocket"></i>
-                    </div>
-                    <h3 class="serif-text text-xl font-bold mb-4">「まさか」を<br>ビジネスにする</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                        「そんなの儲かるわけない」と言われるアイデアにこそ、勝機があります。大人バク転教室のような、誰も気づいていないニッチな市場を一緒に見つけ、0から1を生み出します。
-                    </p>
-                    <span class="text-xs font-bold text-accent tracking-widest uppercase">For New Business</span>
-                </div>
-
-                <div class="bg-gray-50 p-10 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
-                        <i class="fa-solid fa-people-arrows"></i>
-                    </div>
-                    <h3 class="serif-text text-xl font-bold mb-4">現場と経営の<br>通訳になる</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                        トップダウンの戦略は、現場には届きにくいもの。私が間に入って、職人肌のスタッフのやる気に火をつけ、組織全体が同じ方向を向くように調整します。
-                    </p>
-                    <span class="text-xs font-bold text-accent tracking-widest uppercase">For Management</span>
-                </div>
-
-                <div class="bg-gray-50 p-10 hover:shadow-xl transition duration-300 group border-t-4 border-transparent hover:border-accent">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 text-accent text-2xl shadow-sm">
-                        <i class="fa-solid fa-door-open"></i>
-                    </div>
-                    <h3 class="serif-text text-xl font-bold mb-4">出口（Exit）まで<br>伴走する</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                        会社を売却した経験者として、M&Aのリアルな悩みにお答えします。仲介会社には相談しづらい「経営者の気持ち」に寄り添い、納得のいくゴールを考えます。
-                    </p>
-                    <span class="text-xs font-bold text-accent tracking-widest uppercase">For Exit Strategy</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ライフスタイル -->
-    <section id="lifestyle" class="py-24 bg-white border-t border-gray-100">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
-                <div>
-                    <span class="text-accent text-sm font-bold tracking-widest block mb-2">LIFESTYLE</span>
-                    <h2 class="text-3xl font-bold">仕事も遊びも、常に全力。</h2>
-                    <p class="text-gray-500 mt-2 text-sm">堅苦しいのは苦手です。まずは気軽に話しましょう。</p>
-                </div>
-                <div class="mt-6 md:mt-0">
-                    <a href="https://www.facebook.com/masaru009" target="_blank" class="text-sm font-bold text-gray-900 border-b border-accent hover:text-accent transition pb-1">
-                        <i class="fa-brands fa-facebook mr-2"></i>Facebookで日常を見る
-                    </a>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-                <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
-                    <img src="ra.png" alt="ラーメン" class="w-full h-full object-cover img-hover">
-                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                        <p class="text-white font-bold tracking-widest text-sm"><i class="fa-solid fa-bowl-food mr-2"></i>RAMEN</p>
-                    </div>
-                </div>
-                <div class="col-span-2 row-span-2 group relative overflow-hidden bg-gray-100 rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&w=1200&q=80" alt="ビジネス" class="w-full h-full object-cover img-hover">
-                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                        <p class="text-white font-bold tracking-widest text-lg">BUSINESS</p>
-                    </div>
-                </div>
-                <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1571327073757-71d13c24de30?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="サウナ・ビール" class="w-full h-full object-cover img-hover">
-                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                        <p class="text-white font-bold tracking-widest text-sm"><i class="fa-solid fa-beer-mug-empty mr-2"></i>SAUNA & BEER</p>
-                    </div>
-                </div>
-                <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80" alt="仲間" class="w-full h-full object-cover img-hover">
-                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                        <p class="text-white font-bold tracking-widest text-sm"><i class="fa-solid fa-users mr-2"></i>FRIENDS</p>
-                    </div>
-                </div>
-                <div class="group relative overflow-hidden aspect-square bg-gray-100 rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="ジム" class="w-full h-full object-cover img-hover">
-                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                        <p class="text-white font-bold tracking-widest text-sm"><i class="fa-solid fa-dumbbell mr-2"></i>WORKOUT</p>
+                    <p class="text-xs text-gray-500 mb-4">好かれる法則</p>
+                    <div class="mt-auto">
+                        <a href="https://www.amazon.co.jp/dp/4867340855/" target="_blank" class="inline-flex items-center text-xs font-bold text-gray-500 hover:text-[#FF9900] transition">
+                            <i class="fa-brands fa-amazon mr-1"></i> Amazonで購入
+                        </a>
                     </div>
                 </div>
             </div>
@@ -384,6 +380,8 @@
             </div>
 
             <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 before:to-transparent">
+                
+                <!-- 1993-1999 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                         <i class="fa-solid fa-person-running text-gray-500 text-sm"></i>
@@ -395,6 +393,7 @@
                     </div>
                 </div>
 
+                <!-- 2000.10 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-laptop-code text-gray-500 text-sm"></i>
@@ -402,10 +401,14 @@
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded shadow-sm border border-gray-100 hover:shadow-md transition duration-300">
                         <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2000.10</time>
                         <h3 class="text-base font-bold text-accent mb-2">ビジネスの世界へ</h3>
-                        <p class="text-sm text-gray-600">父が経営する(株)クオリティマネジメントへ入社。ITシステム構築やホームページ制作、セミナー運営に従事し、経営の「裏側」と「数字」を徹底的に学ぶ。</p>
+                        <p class="text-sm text-gray-600">
+                            父が経営する(株)クオリティマネジメントへ入社。ITシステム構築やホームページ制作、セミナー運営に従事し、経営の「裏側」と「数字」を徹底的に学ぶ。<br>
+                            <span class="font-bold text-gray-800 mt-2 block"><i class="fa-solid fa-microphone-lines mr-1 text-accent"></i> 経営トップセミナー講師実績は300名を超える。</span>
+                        </p>
                     </div>
                 </div>
 
+                <!-- 2002.10 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-flag text-accent text-sm"></i>
@@ -417,17 +420,7 @@
                     </div>
                 </div>
 
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-                         <i class="fa-solid fa-utensils text-gray-500 text-sm"></i>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded shadow-sm border border-gray-100 hover:shadow-md transition duration-300">
-                        <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2006 - 2008</time>
-                        <h3 class="text-base font-bold text-accent mb-2">事業拡大と多角化</h3>
-                        <p class="text-sm text-gray-600">一般人材派遣事業を開始。「から騒ぎ場」「博多餃子舎603」など飲食店経営にも乗り出し、経営のリスク分散と多角化を推進。</p>
-                    </div>
-                </div>
-
+                <!-- 2012 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-accent shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-medal text-white text-sm"></i>
@@ -435,21 +428,11 @@
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded shadow-sm border border-gray-100 hover:shadow-md transition duration-300 border-l-4 border-l-accent">
                         <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2012</time>
                         <h3 class="text-base font-bold text-accent mb-2">ギネス世界記録 達成</h3>
-                        <p class="text-sm text-gray-600">「バク転」でギネス世界記録を獲得し、ニッチトップの地位を不動のものに。同年、ワーサルシアターを提携し文化発信拠点も整備。</p>
+                        <p class="text-sm text-gray-600">「バク転」でギネス世界記録を獲得し、ニッチトップの地位を不動のものに。</p>
                     </div>
                 </div>
 
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-                         <i class="fa-solid fa-hand-holding-heart text-gray-500 text-sm"></i>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded shadow-sm border border-gray-100 hover:shadow-md transition duration-300">
-                        <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2013</time>
-                        <h3 class="text-base font-bold text-accent mb-2">交通安全教室の展開</h3>
-                        <p class="text-sm text-gray-600">スタントマンが事故を再現する「スケアード・ストレート」方式の交通安全教室を開始。エンタメの力を社会貢献に活かす。</p>
-                    </div>
-                </div>
-
+                <!-- 2016 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-earth-americas text-gray-500 text-sm"></i>
@@ -461,39 +444,19 @@
                     </div>
                 </div>
 
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-                         <i class="fa-solid fa-chart-line text-gray-500 text-sm"></i>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded shadow-sm border border-gray-100 hover:shadow-md transition duration-300">
-                        <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2020</time>
-                        <h3 class="text-base font-bold text-accent mb-2">コロナ危機とV字回復</h3>
-                        <p class="text-sm text-gray-600">イベント自粛の直撃を受けるも、即座にYouTube戦略（登録30万人超）やコスト構造改革へ舵切り。過去最高益を達成する。</p>
-                    </div>
-                </div>
-
+                <!-- 2021-2025 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-handshake text-gray-500 text-sm"></i>
                     </div>
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded shadow-sm border border-gray-100 hover:shadow-md transition duration-300">
-                        <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2021.08</time>
-                        <h3 class="text-base font-bold text-accent mb-2">M&A（Exit）とJAG設立</h3>
-                        <p class="text-sm text-gray-600">カスケードグループへ株式譲渡。代表として残り組織統合（PMI）を推進。同時期に「ジャパンアクションギルド」を設立。</p>
+                        <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2021.08 - 2025.12</time>
+                        <h3 class="text-base font-bold text-accent mb-2">M&A（バイアウト）とPMI</h3>
+                        <p class="text-sm text-gray-600">株式譲渡（バイアウト）を実施。その後4年間、代表として残り、組織統合（PMI）を完遂。円満に退任を迎える。</p>
                     </div>
                 </div>
 
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-                         <i class="fa-solid fa-door-open text-gray-500 text-sm"></i>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded shadow-sm border border-gray-100 hover:shadow-md transition duration-300">
-                        <time class="font-serif text-lg font-bold text-gray-900 block mb-1">2024.12</time>
-                        <h3 class="text-base font-bold text-accent mb-2">株式会社ワーサル 代表退任</h3>
-                        <p class="text-sm text-gray-600">22年間育てた会社の代表を円満退任。次世代へバトンを渡し、自身の次のステージへの準備に入る。</p>
-                    </div>
-                </div>
-
+                <!-- 2026 -->
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-900 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                          <i class="fa-solid fa-person-walking-arrow-right text-white text-sm"></i>
@@ -518,21 +481,33 @@
                 ビジネスの相談も、サウナの話も。<br>
                 2026年、新しいことを始めましょう。
             </p>
+            <p class="text-accent font-bold mb-8">
+                <i class="fa-solid fa-chalkboard-user mr-2"></i>セミナー講演やコンサルタントのご依頼も随時受け付けております
+            </p>
 
-            <div class="flex flex-col sm:flex-row justify-center gap-6 mb-16">
-                <!-- 1. お問い合わせフォーム（一番目立たせる） -->
-                <a href="https://yabemasaru23-source.github.io/yabe/contact.html" class="bg-accent text-white px-10 py-4 font-bold hover:bg-opacity-90 transition shadow-lg flex items-center justify-center gap-3 rounded-sm text-lg">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto mb-16">
+                <!-- LINEボタン：最優先 -->
+                <a href="https://line.me/R/ti/p/%40467esgfi" target="_blank" class="bg-line text-white px-6 py-5 font-bold hover:bg-opacity-90 transition shadow-lg flex items-center justify-center gap-3 rounded-md text-lg sm:col-span-2 group">
+                    <i class="fa-brands fa-line text-3xl"></i>
+                    <div class="text-left leading-tight">
+                        <span class="block text-sm font-normal opacity-90 mb-0.5">矢部大 公式LINE 「時間革命哲学」</span>
+                        <span class="block">LINEで直接連絡する</span>
+                    </div>
+                    <i class="fa-solid fa-arrow-right opacity-0 group-hover:opacity-100 transition ml-auto"></i>
+                </a>
+
+                <a href="https://yabemasaru23-source.github.io/yabe/contact.html" class="bg-accent text-white px-6 py-4 font-bold hover:bg-opacity-90 transition shadow-md flex items-center justify-center gap-2 rounded-md">
                     <i class="fa-solid fa-paper-plane"></i> お問い合わせフォーム
                 </a>
                 
-                <!-- 2. メール -->
-                <a href="mailto:yabemasaru23@gmail.com" class="bg-gray-900 text-white px-10 py-4 font-bold hover:bg-gray-700 transition shadow-lg flex items-center justify-center gap-3 rounded-sm">
+                <a href="mailto:yabemasaru23@gmail.com" class="bg-gray-900 text-white px-6 py-4 font-bold hover:bg-gray-700 transition shadow-md flex items-center justify-center gap-2 rounded-md">
                     <i class="fa-regular fa-envelope"></i> メールを送る
                 </a>
-                
-                <!-- 3. Facebook -->
-                <a href="https://www.facebook.com/masaru009" target="_blank" class="bg-[#1877F2] text-white px-10 py-4 font-bold hover:bg-blue-700 transition shadow-lg flex items-center justify-center gap-3 rounded-sm">
-                    <i class="fa-brands fa-facebook-f"></i> Facebook
+            </div>
+            
+            <div class="flex justify-center mb-16">
+                <a href="https://www.facebook.com/masaru009" target="_blank" class="text-[#1877F2] hover:underline font-bold flex items-center gap-2">
+                    <i class="fa-brands fa-facebook-f"></i> Facebookで近況を見る
                 </a>
             </div>
 
@@ -540,13 +515,13 @@
                 <h3 class="text-lg font-bold mb-6 text-gray-900">現在、このようなお話をお待ちしています</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 text-left max-w-2xl mx-auto">
                     <div class="flex items-center text-gray-700">
-                        <i class="fa-solid fa-check text-accent mr-3"></i> 新規事業の壁打ち・アドバイス
+                        <i class="fa-solid fa-check text-accent mr-3"></i> AIを活用した営業DX
                     </div>
                     <div class="flex items-center text-gray-700">
-                        <i class="fa-solid fa-check text-accent mr-3"></i> 社外取締役・顧問のご依頼
+                        <i class="fa-solid fa-check text-accent mr-3"></i> 陰陽五行を用いた人事戦略
                     </div>
                     <div class="flex items-center text-gray-700">
-                        <i class="fa-solid fa-check text-accent mr-3"></i> 経営者向け講演・セミナー登壇
+                        <i class="fa-solid fa-check text-accent mr-3"></i> 営業クロージング代行・研修
                     </div>
                     <div class="flex items-center text-gray-700">
                         <i class="fa-solid fa-check text-accent mr-3"></i> おすすめのラーメン・サウナ情報
@@ -564,6 +539,7 @@
                 <p class="text-xs text-gray-400 mt-2">&copy; 2026 Masaru Yabe. All Rights Reserved.</p>
             </div>
             <div class="flex space-x-6">
+                <a href="https://line.me/R/ti/p/%40467esgfi" target="_blank" class="text-gray-400 hover:text-line transition text-xl"><i class="fa-brands fa-line"></i></a>
                 <a href="https://www.facebook.com/masaru009" target="_blank" class="text-gray-400 hover:text-[#1877F2] transition text-xl"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://x.com/yabemasaru23" target="_blank" class="text-gray-400 hover:text-black transition text-xl"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="https://www.instagram.com/masaru_yabe/" target="_blank" class="text-gray-400 hover:text-pink-600 transition text-xl"><i class="fa-brands fa-instagram"></i></a>
@@ -574,7 +550,6 @@
     <!-- スムーズスクロール -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // #で始まる内部リンクのみスムーズスクロールを適用
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
