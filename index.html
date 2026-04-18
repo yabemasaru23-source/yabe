@@ -3,679 +3,1025 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>矢部大 | 感動マネジメント・名参謀 経営コンサルタント | 中小企業の売上・営業・事業承継</title>
-  <meta name="description" content="8社経営・年商15億の実績を持つ経営コンサルタント 矢部大。4,000名の経営トップが採用した「感動マネジメント」と「タイムマネジメントセミナー」で、中小企業の売上・人財育成・事業承継を解決します。" />
-  <meta name="keywords" content="矢部大,感動マネジメント,タイムマネジメント,経営コンサルタント,名参謀,中小企業,営業クロージング,事業承継,セミナー,日本大学芸術学部" />
-  <meta property="og:title" content="矢部大 | 感動マネジメントで売上の壁を突き破る名参謀" />
-  <meta property="og:description" content="8社経営・年商15億・4,000名の経営トップが採用。感動マネジメントとタイムマネジメントで、孤独な経営者の右腕になります。" />
-  <meta property="og:image" content="./yabeVORT.jpg" />
-  <meta property="og:url" content="https://yabemasaru.site/" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- =============================================
+       SEO: タイトル・メタ説明・OGP
+  ============================================= -->
+  <title>矢部大（やべまさる）｜感動マネジメントで売上の壁を突き破る名参謀・経営コンサルタント</title>
+  <meta name="description" content="8社経営・年商15億の実戦経営者、矢部大（やべまさる）。「感動マネジメント」で4,000名の経営トップが成果を出した。無料相談受付中。" />
+  <meta name="keywords" content="矢部大,やべまさる,感動マネジメント,経営コンサルタント,名参謀,タイムマネジメント,営業研修,中小企業,事業承継" />
+  <meta name="author" content="矢部大 Masaru Yabe" />
   <link rel="canonical" href="https://yabemasaru.site/" />
 
-  <!-- Google Analytics GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <!-- OGP (SNSシェア用) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yabemasaru.site/" />
+  <meta property="og:title" content="矢部大（やべまさる）｜感動マネジメントで売上の壁を突き破る名参謀" />
+  <meta property="og:description" content="8社経営・年商15億の実戦経営者。「戦わずして売る」哲学で4,000名の経営トップが採用。孤独な経営者の名参謀として、あなたの会社の未来を切り拓きます。" />
+  <meta property="og:image" content="https://yabemasaru.site/yabeVORT.jpg" />
+  <meta property="og:site_name" content="矢部大 公式サイト" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@yabemasaru23" />
+  <meta name="twitter:title" content="矢部大（やべまさる）｜感動マネジメントで売上の壁を突き破る名参謀" />
+  <meta name="twitter:description" content="8社経営・年商15億の実戦経営者。「感動マネジメント」で4,000名の経営トップが採用。無料相談受付中。" />
+  <meta name="twitter:image" content="https://yabemasaru.site/yabeVORT.jpg" />
+
+  <!-- =============================================
+       構造化データ (JSON-LD) — 検索リッチリザルト対応
+  ============================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "矢部大",
+    "alternateName": "やべまさる",
+    "url": "https://yabemasaru.site/",
+    "image": "https://yabemasaru.site/yabe03.JPG",
+    "jobTitle": "経営コンサルタント / 名参謀",
+    "description": "8社経営・年商15億の実戦経営者。感動マネジメントで4,000名の経営トップが成果を出した。",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "日本大学芸術学部 演劇学科"
+    },
+    "sameAs": [
+      "https://www.instagram.com/masaru_yabe/",
+      "https://x.com/yabemasaru23",
+      "https://www.facebook.com/yabe.masaru/",
+      "https://ameblo.jp/masaru23/"
+    ],
+    "knowsAbout": ["経営コンサルティング","感動マネジメント","タイムマネジメント","営業研修","事業承継","M&A"],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "yabemasaru23@gmail.com",
+      "contactType": "customer service",
+      "availableLanguage": "Japanese"
+    }
+  }
+  </script>
+
+  <!-- =============================================
+       Google Analytics 4 (GA4)
+       ★ YOUR_GA4_MEASUREMENT_ID を置き換えてください
+       例: G-XXXXXXXXXX
+  ============================================= -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA4_MEASUREMENT_ID"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-    function trackConversion(label) {
-      gtag('event', 'conversion_click', { event_category: 'CTA', event_label: label });
+    gtag('config', 'YOUR_GA4_MEASUREMENT_ID', {
+      // GA4 拡張計測: スクロール・外部リンク・ファイルDLを自動計測
+      'send_page_view': true
+    });
+
+    // CTA クリックをGA4カスタムイベントで計測
+    function trackCTA(label) {
+      gtag('event', 'cta_click', {
+        'event_category': 'engagement',
+        'event_label': label
+      });
     }
   </script>
 
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
 
   <style>
+    /* ==================== RESET & BASE ==================== */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --gold: #c8a96e; --gold-light: #e8d5a8;
-      --dark: #1a1a1a; --dark2: #2a2a2a; --dark3: #3a3530;
-      --cream: #fafaf8; --cream2: #f4f1eb;
-      --text: #1a1a1a; --text2: #555; --text3: #888;
-      --border: #e0dbd0;
+      --ink:        #1a1410;
+      --ink-muted:  #5a524a;
+      --ink-light:  #8a8078;
+      --gold:       #c8922a;
+      --gold-light: #e8c06a;
+      --cream:      #faf8f4;
+      --surface:    #ffffff;
+      --border:     rgba(26,20,16,0.12);
+      --font-serif: 'Noto Serif JP', serif;
+      --font-sans:  'Noto Sans JP', sans-serif;
+      --radius:     4px;
+      --max-w:      960px;
     }
     html { scroll-behavior: smooth; }
-    body { font-family: 'Noto Sans JP', sans-serif; color: var(--text); background: var(--cream); font-size: 16px; line-height: 1.7; }
-    img { max-width: 100%; height: auto; display: block; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.8;
+      font-size: 15px;
+    }
+    img { max-width: 100%; display: block; }
     a { color: inherit; text-decoration: none; }
 
-    /* NAV */
-    .nav { position: sticky; top: 0; z-index: 1000; background: #fff; border-bottom: 0.5px solid var(--border); display: flex; align-items: center; justify-content: space-between; padding: 0 40px; height: 64px; }
-    .nav-logo { font-family: 'Noto Serif JP', serif; font-size: 14px; letter-spacing: 0.15em; color: var(--dark); }
-    .nav-links { display: flex; gap: 28px; list-style: none; }
-    .nav-links a { font-size: 11px; letter-spacing: 0.1em; color: var(--text2); transition: color 0.2s; }
-    .nav-links a:hover { color: var(--gold); }
-    .nav-cta { background: var(--dark); color: #fff; font-family: 'Noto Sans JP', sans-serif; font-size: 11px; letter-spacing: 0.1em; padding: 10px 20px; border: none; cursor: pointer; transition: background 0.2s; }
-    .nav-cta:hover { background: var(--gold); }
-
-    /* HERO */
-    .hero { display: grid; grid-template-columns: 1fr 1fr; min-height: 580px; }
-    .hero-left { background: var(--dark); padding: 72px 56px; display: flex; flex-direction: column; justify-content: center; }
-    .hero-eyebrow { font-size: 10px; letter-spacing: 0.25em; color: var(--gold); text-transform: uppercase; margin-bottom: 28px; }
-    .hero-title { font-family: 'Noto Serif JP', serif; font-size: 30px; font-weight: 300; line-height: 1.65; color: #fff; margin-bottom: 28px; }
-    .hero-title strong { color: var(--gold); font-weight: 600; display: block; font-size: 34px; }
-    .hero-title span { color: #bbb; font-size: 18px; }
-    .hero-sub { font-size: 13px; line-height: 2.0; color: #aaa; margin-bottom: 40px; }
-    .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
-    .hero-right { background: var(--dark3); display: flex; align-items: center; justify-content: center; padding: 48px 40px; position: relative; overflow: hidden; }
-    .hero-right::before { content: ''; position: absolute; top: -40px; right: -40px; width: 200px; height: 200px; border: 0.5px solid rgba(200,169,110,0.2); border-radius: 50%; }
-    .hero-photo-frame { width: 240px; height: 320px; border: 0.5px solid var(--gold); position: relative; overflow: hidden; }
-    .hero-photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
-    .hero-photo-caption { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); padding: 10px 12px; font-size: 10px; letter-spacing: 0.15em; color: var(--gold); text-align: center; }
-
-    /* BUTTONS */
-    .btn-gold { background: var(--gold); color: #fff; font-family: 'Noto Sans JP', sans-serif; font-size: 12px; letter-spacing: 0.1em; padding: 13px 28px; border: none; cursor: pointer; transition: opacity 0.2s; }
-    .btn-gold:hover { opacity: 0.85; }
-    .btn-outline-gold { background: transparent; color: var(--gold); font-family: 'Noto Sans JP', sans-serif; font-size: 12px; letter-spacing: 0.1em; padding: 12px 28px; border: 0.5px solid var(--gold); cursor: pointer; transition: background 0.2s, color 0.2s; }
-    .btn-outline-gold:hover { background: var(--gold); color: #fff; }
-    .btn-line { background: #06c755; color: #fff; font-family: 'Noto Sans JP', sans-serif; font-size: 12px; padding: 13px 28px; border: none; cursor: pointer; transition: opacity 0.2s; }
-    .btn-line:hover { opacity: 0.85; }
-
-    /* STATS */
-    .stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--gold); }
-    .stat-item { padding: 28px 16px; text-align: center; border-right: 0.5px solid rgba(255,255,255,0.3); }
-    .stat-item:last-child { border-right: none; }
-    .stat-num { font-family: 'Noto Serif JP', serif; font-size: 32px; font-weight: 300; color: #fff; line-height: 1; }
-    .stat-label { font-size: 10px; letter-spacing: 0.12em; color: rgba(255,255,255,0.85); margin-top: 8px; }
-
-    /* SECTION */
-    .section { padding: 80px 56px; }
-    .section-alt { background: var(--cream2); }
-    .sec-eyebrow { font-size: 10px; letter-spacing: 0.25em; color: var(--gold); text-transform: uppercase; margin-bottom: 12px; }
-    .sec-title { font-family: 'Noto Serif JP', serif; font-size: 24px; font-weight: 300; line-height: 1.65; color: var(--dark); margin-bottom: 36px; border-left: 2px solid var(--gold); padding-left: 18px; }
-    .sec-lead { font-size: 13px; line-height: 2.0; color: var(--text2); max-width: 640px; margin-bottom: 40px; }
-
-    /* PROFILE */
-    .profile-grid { display: grid; grid-template-columns: auto 1fr; gap: 48px; align-items: start; }
-    .profile-photo { width: 200px; height: 260px; overflow: hidden; border: 0.5px solid var(--border); flex-shrink: 0; }
-    .profile-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
-    .profile-name-en { font-size: 10px; letter-spacing: 0.2em; color: var(--gold); margin-bottom: 8px; }
-    .profile-name-ja { font-family: 'Noto Serif JP', serif; font-size: 28px; font-weight: 300; color: var(--dark); margin-bottom: 20px; }
-    .profile-text { font-size: 13px; line-height: 2.1; color: var(--text2); margin-bottom: 24px; }
-
-    /* 日大バッジ */
-    .nichidai-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--dark); border: 0.5px solid var(--gold); padding: 10px 18px; margin-bottom: 20px; }
-    .nichidai-badge-label { font-size: 9px; letter-spacing: 0.15em; color: var(--gold); text-transform: uppercase; display: block; margin-bottom: 3px; }
-    .nichidai-badge-text { font-size: 13px; color: #fff; letter-spacing: 0.05em; }
-
-    .profile-specs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 20px; }
-    .spec-item { background: var(--cream2); padding: 12px 16px; border-left: 2px solid var(--gold); }
-    .spec-label { font-size: 10px; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 4px; }
-    .spec-val { font-size: 13px; color: var(--dark); }
-
-    /* 感動マネジメント */
-    .kandon-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    .kandon-card { background: #fff; border: 0.5px solid var(--border); padding: 28px 24px; position: relative; overflow: hidden; }
-    .kandon-card::before { content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 100%; background: var(--gold); }
-    .kandon-num { font-family: 'Noto Serif JP', serif; font-size: 40px; color: #ede8dc; font-weight: 300; line-height: 1; margin-bottom: 10px; }
-    .kandon-title { font-size: 14px; font-weight: 500; color: var(--dark); margin-bottom: 10px; }
-    .kandon-desc { font-size: 12px; line-height: 1.9; color: var(--text2); }
-
-    /* タイムマネジメント */
-    .time-section { background: var(--dark2); display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; padding: 72px 56px; }
-    .time-eyebrow { font-size: 10px; letter-spacing: 0.25em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; }
-    .time-title { font-family: 'Noto Serif JP', serif; font-size: 22px; font-weight: 300; color: #fff; line-height: 1.7; margin-bottom: 20px; }
-    .time-desc { font-size: 13px; line-height: 2.0; color: #aaa; margin-bottom: 28px; }
-    .time-points { display: flex; flex-direction: column; gap: 18px; }
-    .time-point { display: flex; align-items: flex-start; gap: 14px; }
-    .time-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); margin-top: 7px; flex-shrink: 0; }
-    .time-point-text { font-size: 13px; line-height: 1.8; color: #ccc; }
-    .book-highlight { margin-top: 28px; background: rgba(200,169,110,0.08); border: 0.5px solid rgba(200,169,110,0.3); padding: 16px 20px; display: flex; align-items: center; gap: 16px; }
-    .book-highlight-img { width: 56px; flex-shrink: 0; }
-    .book-highlight-title { font-size: 13px; color: var(--gold); font-weight: 500; margin-bottom: 4px; }
-    .book-highlight-text { font-size: 11px; line-height: 1.8; color: #bbb; }
-
-    /* 素顔 */
-    .personality-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
-    .personality-card { position: relative; overflow: hidden; }
-    .personality-img { width: 100%; height: 280px; object-fit: cover; display: block; }
-    .personality-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.88)); padding: 40px 24px 24px; }
-    .personality-badge { display: inline-block; background: var(--gold); color: #fff; font-size: 10px; letter-spacing: 0.1em; padding: 3px 10px; margin-bottom: 8px; }
-    .personality-title { font-size: 15px; font-weight: 500; color: #fff; margin-bottom: 6px; }
-    .personality-desc { font-size: 12px; line-height: 1.8; color: rgba(255,255,255,0.8); }
-
-    /* SERVICES */
-    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    .service-card { background: #fff; border: 0.5px solid var(--border); padding: 32px 24px; }
-    .service-icon { width: 40px; height: 40px; background: var(--dark); display: flex; align-items: center; justify-content: center; margin-bottom: 18px; }
-    .service-icon svg { width: 20px; height: 20px; fill: var(--gold); }
-    .service-title { font-size: 14px; font-weight: 500; color: var(--dark); margin-bottom: 10px; }
-    .service-desc { font-size: 12px; line-height: 1.9; color: var(--text2); }
-
-    /* VOICES */
-    .voices-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    .voice-card { background: #fff; border: 0.5px solid var(--border); padding: 28px 24px; }
-    .voice-header { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
-    .voice-avatar { width: 48px; height: 48px; border-radius: 50%; background: var(--dark); display: flex; align-items: center; justify-content: center; font-size: 11px; color: var(--gold); flex-shrink: 0; font-family: 'Noto Serif JP', serif; }
-    .voice-company { font-size: 10px; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 3px; }
-    .voice-role { font-size: 11px; color: var(--text3); }
-    .result-badge { display: inline-block; background: var(--dark); color: var(--gold); font-size: 10px; letter-spacing: 0.08em; padding: 4px 10px; margin-bottom: 12px; }
-    .voice-text { font-size: 12px; line-height: 2.0; color: #444; }
-    .voice-note { font-size: 10px; color: #bbb; margin-top: 10px; }
-    .voice-wide { background: #fff; border: 0.5px solid var(--border); padding: 28px 32px; border-left: 3px solid var(--gold); margin-top: 20px; }
-    .voice-quote { font-family: 'Noto Serif JP', serif; font-size: 52px; color: #e8e0d0; line-height: 1; float: left; margin-right: 10px; margin-top: -8px; }
-    .voice-wide-text { font-size: 13px; line-height: 2.1; color: #333; }
-    .voice-wide-name { margin-top: 14px; font-size: 11px; color: var(--text3); }
-
-    /* BOOKS */
-    .books-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-    .book-card { background: #fff; border: 0.5px solid var(--border); overflow: hidden; }
-    .book-cover { width: 100%; aspect-ratio: 3/4; overflow: hidden; background: var(--cream2); }
-    .book-cover img { width: 100%; height: 100%; object-fit: cover; }
-    .book-info { padding: 14px 14px 16px; }
-    .book-title { font-size: 12px; line-height: 1.7; color: var(--dark); margin-bottom: 8px; }
-    .book-link { font-size: 10px; letter-spacing: 0.1em; color: var(--gold); }
-
-    /* HISTORY */
-    .history-list { position: relative; padding-left: 32px; }
-    .history-list::before { content: ''; position: absolute; left: 7px; top: 0; bottom: 0; width: 0.5px; background: var(--border); }
-    .history-item { position: relative; margin-bottom: 36px; }
-    .history-item::before { content: ''; position: absolute; left: -28px; top: 6px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); border: 2px solid var(--cream2); }
-    .history-year { font-size: 10px; letter-spacing: 0.15em; color: var(--gold); margin-bottom: 4px; }
-    .history-title { font-size: 14px; font-weight: 500; color: var(--dark); margin-bottom: 6px; }
-    .history-desc { font-size: 12px; line-height: 1.9; color: var(--text2); }
-
-    /* CTA */
-    .cta-section { background: var(--dark); padding: 96px 56px; text-align: center; }
-    .cta-eyebrow { font-size: 10px; letter-spacing: 0.25em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; }
-    .cta-title { font-family: 'Noto Serif JP', serif; font-size: 26px; font-weight: 300; color: #fff; line-height: 1.7; margin-bottom: 16px; }
-    .cta-sub { font-size: 13px; color: #888; margin-bottom: 44px; }
-    .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-
-    /* CONTACT */
-    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
-    .contact-item { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 0.5px solid var(--border); }
-    .contact-item:last-child { border-bottom: none; }
-    .contact-label { font-size: 11px; letter-spacing: 0.1em; color: var(--gold); min-width: 80px; margin-top: 2px; }
-    .contact-val { font-size: 13px; line-height: 1.8; color: var(--text2); }
-    .contact-val a { color: var(--gold); }
-    .contact-seeking { background: var(--cream2); padding: 28px; }
-    .contact-seeking-title { font-size: 12px; letter-spacing: 0.1em; color: var(--text3); margin-bottom: 14px; }
-    .contact-seeking-list { list-style: none; }
-    .contact-seeking-list li { font-size: 13px; line-height: 1.8; color: var(--text2); padding: 6px 0; border-bottom: 0.5px solid var(--border); display: flex; align-items: center; gap: 10px; }
-    .contact-seeking-list li:last-child { border-bottom: none; }
-    .contact-seeking-list li::before { content: ''; width: 4px; height: 4px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
-
-    /* FOOTER */
-    footer { background: var(--dark2); padding: 40px 56px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
-    .footer-logo { font-family: 'Noto Serif JP', serif; font-size: 14px; letter-spacing: 0.15em; color: #fff; }
-    .footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
-    .footer-links a { font-size: 11px; color: #666; letter-spacing: 0.08em; transition: color 0.2s; }
-    .footer-links a:hover { color: var(--gold); }
-    .footer-copy { font-size: 10px; color: #555; }
-
-    /* ANIMATION */
-    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
-    .fade-in.visible { opacity: 1; transform: translateY(0); }
-
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-      .nav { padding: 0 20px; }
-      .nav-links { display: none; }
-      .hero { grid-template-columns: 1fr; }
-      .hero-left { padding: 48px 24px; }
-      .hero-right { padding: 36px 24px; }
-      .hero-title { font-size: 22px; }
-      .hero-title strong { font-size: 26px; }
-      .stats-bar { grid-template-columns: repeat(2, 1fr); }
-      .section { padding: 56px 24px; }
-      .profile-grid { grid-template-columns: 1fr; }
-      .profile-specs { grid-template-columns: 1fr; }
-      .kandon-grid, .personality-grid, .voices-grid, .contact-grid, .services-grid { grid-template-columns: 1fr; }
-      .time-section { grid-template-columns: 1fr; padding: 56px 24px; }
-      .books-grid { grid-template-columns: repeat(2, 1fr); }
-      .cta-section { padding: 64px 24px; }
-      footer { flex-direction: column; text-align: center; padding: 32px 24px; }
+    /* ==================== NAV ==================== */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(250,248,244,0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 0.5px solid var(--border);
+      padding: 0 1.5rem;
     }
+    .nav-inner {
+      max-width: var(--max-w);
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+    .nav-logo {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--ink);
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .nav-links a {
+      color: var(--ink-muted);
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+      background: var(--ink);
+      color: #fff !important;
+      padding: 8px 18px;
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+    .nav-cta:hover { background: var(--gold) !important; color: var(--ink) !important; }
+
+    /* mobile nav toggle */
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { display: block; width: 24px; height: 1.5px; background: var(--ink); transition: 0.3s; }
+
+    /* ==================== HERO ==================== */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 5rem 1.5rem 4rem;
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      text-transform: uppercase;
+      border: 0.5px solid var(--gold);
+      padding: 4px 10px;
+      border-radius: 2px;
+      margin-bottom: 1.2rem;
+    }
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 700;
+      line-height: 1.4;
+      letter-spacing: 0.02em;
+      margin-bottom: 1.2rem;
+    }
+    .hero-title em { font-style: normal; color: var(--gold); }
+    .hero-sub {
+      font-size: 15px;
+      color: var(--ink-muted);
+      line-height: 1.9;
+      margin-bottom: 2rem;
+    }
+    .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--ink);
+      color: #fff;
+      padding: 13px 28px;
+      border-radius: var(--radius);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer;
+      border: none;
+      display: inline-block;
+    }
+    .btn-primary:hover { background: var(--gold); color: var(--ink); transform: translateY(-1px); }
+    .btn-secondary {
+      background: transparent;
+      color: var(--ink);
+      padding: 13px 28px;
+      border-radius: var(--radius);
+      font-size: 14px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      transition: border-color 0.2s, color 0.2s;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); }
+
+    .hero-img-wrap {
+      position: relative;
+    }
+    .hero-img-wrap::before {
+      content: '';
+      position: absolute;
+      inset: -16px -16px 16px 16px;
+      border: 1px solid var(--gold-light);
+      border-radius: var(--radius);
+      z-index: 0;
+    }
+    .hero-img-wrap img {
+      position: relative;
+      z-index: 1;
+      border-radius: var(--radius);
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+    }
+
+    /* ==================== STATS BAR ==================== */
+    .stats-bar {
+      background: var(--ink);
+      color: #fff;
+    }
+    .stats-inner {
+      max-width: var(--max-w);
+      margin: auto;
+      padding: 2rem 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: var(--font-serif);
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.6);
+      margin-top: 6px;
+      letter-spacing: 0.05em;
+    }
+
+    /* ==================== SECTIONS ==================== */
+    section { padding: 5rem 1.5rem; }
+    .section-inner { max-width: var(--max-w); margin: auto; }
+    .section-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(22px, 3vw, 32px);
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+      letter-spacing: 0.02em;
+    }
+    .section-lead {
+      font-size: 15px;
+      color: var(--ink-muted);
+      max-width: 600px;
+      line-height: 1.9;
+      margin-bottom: 3rem;
+    }
+
+    /* ==================== PROFILE ==================== */
+    #about { background: var(--surface); }
+    .profile-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .profile-img {
+      border-radius: var(--radius);
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+    .profile-dl {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.6rem 1.5rem;
+      font-size: 14px;
+      margin-top: 1.5rem;
+      border-top: 0.5px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .profile-dl dt { color: var(--ink-muted); white-space: nowrap; }
+    .profile-dl dd { color: var(--ink); font-weight: 500; }
+
+    /* ==================== SERVICES ==================== */
+    #services { background: var(--cream); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .service-card {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem 1.5rem;
+      transition: box-shadow 0.2s;
+    }
+    .service-card:hover { box-shadow: 0 4px 20px rgba(26,20,16,0.08); }
+    .service-num {
+      font-family: var(--font-serif);
+      font-size: 36px;
+      color: var(--gold-light);
+      font-weight: 700;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    .service-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+    }
+    .service-desc { font-size: 13px; color: var(--ink-muted); line-height: 1.8; }
+
+    /* ==================== BOOKS ==================== */
+    #books { background: var(--surface); }
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+    .book-card {
+      background: var(--cream);
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 0.5px solid var(--border);
+      transition: transform 0.2s;
+    }
+    .book-card:hover { transform: translateY(-3px); }
+    .book-card img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+    .book-info { padding: 1rem; }
+    .book-title { font-size: 13px; font-weight: 700; line-height: 1.5; margin-bottom: 0.5rem; }
+    .book-link {
+      font-size: 12px;
+      color: var(--gold);
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .book-link::after { content: '→'; }
+
+    /* ==================== HISTORY (timeline) ==================== */
+    #history { background: var(--cream); }
+    .timeline { position: relative; padding-left: 2rem; }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      bottom: 8px;
+      width: 1px;
+      background: var(--border);
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 2rem;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -2rem;
+      top: 6px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      transform: translateX(-50%);
+      margin-left: 1px;
+    }
+    .timeline-year {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .timeline-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .timeline-desc { font-size: 13px; color: var(--ink-muted); line-height: 1.7; }
+
+    /* ==================== TESTIMONIALS ==================== */
+    #voices { background: var(--surface); }
+    .voices-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .voice-card {
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      position: relative;
+    }
+    .voice-card::before {
+      content: '"';
+      font-family: var(--font-serif);
+      font-size: 80px;
+      color: var(--gold-light);
+      position: absolute;
+      top: -10px;
+      left: 16px;
+      line-height: 1;
+    }
+    .voice-text { font-size: 14px; line-height: 1.9; color: var(--ink); padding-top: 1rem; margin-bottom: 1.2rem; }
+    .voice-result {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--gold);
+      background: rgba(200,146,42,0.08);
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 2px;
+      margin-bottom: 0.8rem;
+    }
+    .voice-meta { font-size: 12px; color: var(--ink-muted); }
+
+    /* ==================== SNS ==================== */
+    #sns { background: var(--ink); color: #fff; }
+    .sns-inner {
+      max-width: var(--max-w);
+      margin: auto;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    .sns-title {
+      font-family: var(--font-serif);
+      font-size: 26px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
+    .sns-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+    .sns-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.08);
+      border: 0.5px solid rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.85);
+      padding: 10px 20px;
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-weight: 500;
+      transition: background 0.2s;
+      cursor: pointer;
+    }
+    .sns-link:hover { background: rgba(200,146,42,0.2); border-color: var(--gold); color: var(--gold-light); }
+    .sns-icon { width: 16px; height: 16px; fill: currentColor; }
+
+    /* ==================== CTA SECTION ==================== */
+    #contact { background: var(--cream); }
+    .cta-box {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 3.5rem;
+      text-align: center;
+      max-width: 680px;
+      margin: auto;
+    }
+    .cta-title {
+      font-family: var(--font-serif);
+      font-size: clamp(20px, 3vw, 28px);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      line-height: 1.4;
+    }
+    .cta-desc { font-size: 14px; color: var(--ink-muted); margin-bottom: 2rem; line-height: 1.9; }
+    .cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .cta-email { font-size: 13px; color: var(--ink-muted); }
+    .cta-email a { color: var(--gold); font-weight: 700; }
+
+    /* ==================== FOOTER ==================== */
+    footer {
+      background: var(--ink);
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      font-size: 12px;
+    }
+    footer a { color: rgba(255,255,255,0.4); margin: 0 0.5rem; transition: color 0.2s; }
+    footer a:hover { color: var(--gold-light); }
+    .footer-name { color: rgba(255,255,255,0.85); font-family: var(--font-serif); font-size: 15px; margin-bottom: 0.5rem; }
+
+    /* ==================== RESPONSIVE ==================== */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .hero { grid-template-columns: 1fr; padding: 3rem 1.2rem; }
+      .hero-img-wrap { order: -1; }
+      .hero-img-wrap::before { display: none; }
+      .stats-inner { grid-template-columns: repeat(2,1fr); }
+      .profile-grid { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: 1fr; }
+      .books-grid { grid-template-columns: repeat(2,1fr); }
+      .voices-grid { grid-template-columns: 1fr; }
+      .cta-box { padding: 2rem 1.2rem; }
+      .zerotoone-grid { grid-template-columns: 1fr !important; }
+    }
+
+    /* ==================== SCROLL FADE ==================== */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+    }
+    .fade-in.visible { opacity: 1; transform: none; }
   </style>
 </head>
+
 <body>
 
-<!-- NAV -->
-<nav class="nav" role="navigation">
-  <div class="nav-logo">矢 部 　大　MASARU YABE</div>
-  <ul class="nav-links">
-    <li><a href="#about">プロフィール</a></li>
-    <li><a href="#kandon">感動マネジメント</a></li>
-    <li><a href="#time">タイムマネジメント</a></li>
-    <li><a href="#personality">素顔</a></li>
-    <li><a href="#books">書籍</a></li>
-    <li><a href="#contact">お問い合わせ</a></li>
-  </ul>
-  <button class="nav-cta" onclick="trackConversion('nav_cta'); window.location.href='#contact'">無料相談を申込む</button>
-</nav>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-left">
-    <p class="hero-eyebrow">名参謀　／　経営コンサルタント</p>
-    <h1 class="hero-title">
-      <strong>感動マネジメント</strong>で<br>
-      売上の壁を突き破る。<br>
-      <span>8社・年商15億の実戦経営者。</span>
-    </h1>
-    <p class="hero-sub">
-      4,000名の経営トップが採用した「戦わずして売る」哲学。<br>
-      孤独な経営者の右腕として、あなたの会社の未来を切り拓きます。
-    </p>
-    <div class="hero-btns">
-      <button class="btn-gold" onclick="trackConversion('hero_soudan'); window.location.href='#contact'">名参謀に相談する</button>
-      <a href="https://line.me/R/ti/p/%40467esgfi" onclick="trackConversion('hero_line')" target="_blank" rel="noopener">
-        <button class="btn-outline-gold">LINEで気軽に話す</button>
-      </a>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="hero-photo-frame">
-      <img src="./yabeVORT.jpg" alt="経営コンサルタント 矢部大（やべまさる）" loading="eager" />
-      <div class="hero-photo-caption">矢部 大　MASARU YABE</div>
-    </div>
-  </div>
-</section>
-
-<!-- STATS -->
-<div class="stats-bar">
-  <div class="stat-item"><div class="stat-num">8</div><div class="stat-label">社の経営実績</div></div>
-  <div class="stat-item"><div class="stat-num">15億</div><div class="stat-label">年商まで育成</div></div>
-  <div class="stat-item"><div class="stat-num">4,000</div><div class="stat-label">名の経営トップが採用</div></div>
-  <div class="stat-item"><div class="stat-num">300+</div><div class="stat-label">回のセミナー講師実績</div></div>
-</div>
-
-<!-- PROFILE -->
-<section class="section" id="about">
-  <div class="fade-in">
-    <p class="sec-eyebrow">Profile</p>
-    <h2 class="sec-title">「できない」を「できる」に変える。</h2>
-  </div>
-  <div class="profile-grid fade-in">
-    <div class="profile-photo">
-      <img src="./yabe03.JPG" alt="矢部大 プロフィール写真" loading="lazy" />
-    </div>
-    <div>
-      <p class="profile-name-en">MASARU YABE</p>
-      <p class="profile-name-ja">矢部 大</p>
-
-      <div class="nichidai-badge">
-        <div>
-          <span class="nichidai-badge-label">Academic Background</span>
-          <span class="nichidai-badge-text">日本大学芸術学部 演劇学科 卒業</span>
-        </div>
-      </div>
-
-      <p class="profile-text">
-        私の原点は、<strong>日本大学芸術学部演劇学科</strong>在学中に飛び込んだ<strong>ジャパンアクションクラブ（JAC）</strong>でのスタントマン生活です。「燃え盛る炎の中に飛び込む」「高いビルから飛び降りる」。演じること、命を懸けること——そこには言い訳の通用しない、圧倒的な「現場」がありました。<br><br>
-        その後、ビジネスの世界へ。26歳で起業し、気づけば<strong>8社を経営、年商15億円</strong>まで会社を育てていました。常に「常識の逆」を行く経営を実践してきました。<br><br>
-        M&AによるExitを経て、2026年、私は再び「個」になりました。孤独な経営者の皆様の「名参謀」として、私の持つノウハウのすべてをご提供します。
-      </p>
-
-      <div class="profile-specs">
-        <div class="spec-item">
-          <div class="spec-label">学歴</div>
-          <div class="spec-val">日本大学芸術学部 演劇学科</div>
-        </div>
-        <div class="spec-item">
-          <div class="spec-label">出身</div>
-          <div class="spec-val">東京都八王子市</div>
-        </div>
-        <div class="spec-item">
-          <div class="spec-label">起業・経営</div>
-          <div class="spec-val">26歳起業・8社経営・年商15億</div>
-        </div>
-        <div class="spec-item">
-          <div class="spec-label">特技</div>
-          <div class="spec-val">世界同時バク転（ギネス記録）</div>
-        </div>
-        <div class="spec-item">
-          <div class="spec-label">現職</div>
-          <div class="spec-val">Japan Action Guild 代表理事</div>
-        </div>
-        <div class="spec-item">
-          <div class="spec-label">著書</div>
-          <div class="spec-val">4冊（4,000名の経営トップが採用）</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 感動マネジメント -->
-<section class="section section-alt" id="kandon">
-  <div class="fade-in">
-    <p class="sec-eyebrow">Kandon Management</p>
-    <h2 class="sec-title">誰にも真似できない<br>「感動マネジメント」の哲学</h2>
-    <p class="sec-lead">
-      日大芸術学部で演技を学び、スタントマンとして命を懸け、26歳で起業し8社を経営してわかったこと——<br>
-      人が本当に動くのは「理論」ではなく「感動」からです。矢部式営業は、相手の感情を動かすことで「戦わずして売る」境地を実現します。
-    </p>
-  </div>
-  <div class="kandon-grid fade-in">
-    <div class="kandon-card">
-      <div class="kandon-num">01</div>
-      <h3 class="kandon-title">相手の感情を設計する</h3>
-      <p class="kandon-desc">クロージングの前に「感動体験」を設計する。感情が動いた相手は、自ら決断します。演劇・アクションで磨いた「人の感情を動かす力」が、営業の現場で炸裂します。</p>
-    </div>
-    <div class="kandon-card">
-      <div class="kandon-num">02</div>
-      <h3 class="kandon-title">ストーリーで売る力</h3>
-      <p class="kandon-desc">バク転からギネス、年商15億へ——自分の物語を「武器」にする方法。日大芸術学部で学んだ表現力と経営実績が融合した、唯一無二のストーリーブランディング。</p>
-    </div>
-    <div class="kandon-card">
-      <div class="kandon-num">03</div>
-      <h3 class="kandon-title">成果主義・同行営業</h3>
-      <p class="kandon-desc">口だけのコンサルとは違います。必要なら一緒に現場に入り、クロージングの瞬間まで並走します。理論ではなく、現場で汗をかく「実戦型」の支援スタイルです。</p>
-    </div>
-    <div class="kandon-card">
-      <div class="kandon-num">04</div>
-      <h3 class="kandon-title">AIと感動の融合営業</h3>
-      <p class="kandon-desc">最新AIで効率化した時間を、感動体験の創出に注ぐ。テクノロジーと人間力を融合した次世代営業組織の構築を、実践レベルで支援します。</p>
-    </div>
-  </div>
-</section>
-
-<!-- タイムマネジメント -->
-<section class="time-section" id="time">
-  <div>
-    <p class="time-eyebrow">Time Management Seminar</p>
-    <h2 class="time-title">「時間を守る」ではなく<br>「時間を創造する」力</h2>
-    <p class="time-desc">ベストセラー『スーパータイムマネジメント』著者が直伝。時間は管理するものではなく、創り出すもの。経営者の最大の資産「時間」の本質を変えるセミナーです。</p>
-    <div class="book-highlight">
-      <img src="./time.png" alt="スーパータイムマネジメント" class="book-highlight-img" loading="lazy" />
-      <div>
-        <div class="book-highlight-title">スーパータイムマネジメント</div>
-        <div class="book-highlight-text">著者：矢部 大（時間創造部）<br>Amazonにて発売中</div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="time-points">
-      <div class="time-point"><div class="time-dot"></div><p class="time-point-text">「忙しい」を卒業する思考法——時間密度を10倍にする具体的メソッド</p></div>
-      <div class="time-point"><div class="time-dot"></div><p class="time-point-text">決断の速度が経営を変える——迷わない判断基準の作り方</p></div>
-      <div class="time-point"><div class="time-dot"></div><p class="time-point-text">コロナ禍で過去最高益——危機を好機に変えた時間戦略の全て</p></div>
-      <div class="time-point"><div class="time-dot"></div><p class="time-point-text">8社同時経営を可能にした「時間創造」の実践メソッドを公開</p></div>
-      <div class="time-point"><div class="time-dot"></div><p class="time-point-text">経営チーム全体の意思決定スピードを劇的に向上させる展開法</p></div>
-    </div>
-    <button class="btn-gold" style="margin-top:32px; width:100%; padding:16px;" onclick="trackConversion('time_seminar'); window.location.href='#contact'">
-      タイムマネジメントセミナーを申込む
-    </button>
-  </div>
-</section>
-
-<!-- 素顔：バク転ギネス・大型バス 復活 -->
-<section class="section section-alt" id="personality">
-  <div class="fade-in">
-    <p class="sec-eyebrow">Personality</p>
-    <h2 class="sec-title">矢部大の「素顔」<br>経営者だけど、体も張ります。</h2>
-    <p class="sec-lead">経営戦略を語る「名参謀」としての顔だけでなく、いざという時には体を張る泥臭さも私の持ち味です。この人間的な幅広さが、感動マネジメントの源泉です。</p>
-  </div>
-  <div class="personality-grid fade-in">
-    <div class="personality-card">
-      <img src="./yabe05.jpg" alt="バク転世界ギネス記録 矢部大" class="personality-img" loading="lazy" />
-      <div class="personality-overlay">
-        <div class="personality-badge">ギネス世界記録保持</div>
-        <h3 class="personality-title">バク転世界ギネス保持</h3>
-        <p class="personality-desc">世界同時バク転でギネス世界記録を獲得。バク転だけで10億円を稼ぎ出した原点でもあります。「やると決めたらとことん極める」のが矢部流の生き方です。</p>
-      </div>
-    </div>
-    <div class="personality-card">
-      <img src="./yabe06.jpg" alt="大型バス運転 矢部大" class="personality-img" loading="lazy" />
-      <div class="personality-overlay">
-        <div class="personality-badge">超・現場主義</div>
-        <h3 class="personality-title">大型バス、運転できます</h3>
-        <p class="personality-desc">実は大型バスの運転ができます。ロケバスの運転から現場スタッフの送迎まで、自らステアリングを握り現場へ向かう、根っからの「超・現場主義」です。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section class="section" id="services">
-  <div class="fade-in">
-    <p class="sec-eyebrow">What I Can Do</p>
-    <h2 class="sec-title">名参謀として、提供できる価値</h2>
-  </div>
-  <div class="services-grid fade-in">
-    <div class="service-card">
-      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
-      <h3 class="service-title">感動マネジメント営業研修</h3>
-      <p class="service-desc">年商15億を築いた「戦わずして売る」ノウハウ。成果主義・同行営業も対応。成約率を劇的に高めるクロージングの極意を直接伝授・代行します。</p>
-    </div>
-    <div class="service-card">
-      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg></div>
-      <h3 class="service-title">タイムマネジメントセミナー</h3>
-      <p class="service-desc">「時間を創造する」という経営哲学を組織全体に浸透させる。経営者・幹部向けセミナーで意思決定の質とスピードを根本から変革します。</p>
-    </div>
-    <div class="service-card">
-      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
-      <h3 class="service-title">名参謀（顧問・壁打ち）</h3>
-      <p class="service-desc">経営全般・事業承継・M&A・新規事業・人財育成。8社の経営実績で培ったリアルなノウハウを、孤独な経営者の右腕として提供します。</p>
-    </div>
-    <div class="service-card">
-      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg></div>
-      <h3 class="service-title">AIを活用した営業DX</h3>
-      <p class="service-desc">AIによる精度の高いリスト作成・アプローチの自動化など、最新テクノロジーを駆使して「勝てる営業組織」の基盤を構築します。</p>
-    </div>
-    <div class="service-card">
-      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-      <h3 class="service-title">陰陽五行 ビジネス帝王学</h3>
-      <p class="service-desc">経営は「タイミング」と「人」がすべて。数千年の知見を用い、攻める時期・引く時期・最適な人材配置を戦略的にアドバイスします。</p>
-    </div>
-    <div class="service-card">
-      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M20 6h-2.18c.07-.44.18-.88.18-1.35C18 2.51 16.48 1 14.65 1c-1.3 0-2.42.78-3.06 2l-.59 1.18-.59-1.18C9.77 1.78 8.65 1 7.35 1 5.52 1 4 2.51 4 4.65c0 .47.1.91.18 1.35H2v14h20V6z"/></svg></div>
-      <h3 class="service-title">講演・基調スピーチ</h3>
-      <p class="service-desc">バク転ギネス記録保持者の圧倒的な実体験から生まれる言葉。経営者団体・業界団体・企業研修など、場の空気を変える講演をお届けします。</p>
-    </div>
-  </div>
-</section>
-
-<!-- VOICES -->
-<section class="section section-alt" id="voices">
-  <div class="fade-in">
-    <p class="sec-eyebrow">Client Voices</p>
-    <h2 class="sec-title">「この人に頼んで、本当に良かった」<br>経営者からの声</h2>
-  </div>
-  <div class="voices-grid fade-in">
-    <div class="voice-card">
-      <div class="voice-header">
-        <div class="voice-avatar">A社</div>
-        <div><div class="voice-company">建設業 / 代表取締役</div><div class="voice-role">年商2億・社員18名</div></div>
-      </div>
-      <div class="result-badge">▶ 成約率3倍・売上1.8倍達成</div>
-      <p class="voice-text">「矢部さんは口だけじゃなく、一緒に営業現場に入ってくれた。何度も失注していた大口案件を、矢部さんが同行した翌日に受注できた。感動マネジメントが何なのか、現場で体感しました。」</p>
-      <p class="voice-note">※ご本人の許可を得て掲載</p>
-    </div>
-    <div class="voice-card">
-      <div class="voice-header">
-        <div class="voice-avatar">B社</div>
-        <div><div class="voice-company">人材派遣業 / 創業者</div><div class="voice-role">社員40名・事業拡大フェーズ</div></div>
-      </div>
-      <div class="result-badge">▶ 新規顧客獲得数 前年比2.4倍</div>
-      <p class="voice-text">「理論だけのコンサルに嫌気がさしていた時に矢部さんと出会った。成果報酬型でリスクなく始められ、実際に数字が出た。経営者経験者ならではの『現場感』が営業チームを根本から変えてくれた。」</p>
-      <p class="voice-note">※ご本人の許可を得て掲載</p>
-    </div>
-    <div class="voice-card">
-      <div class="voice-header">
-        <div class="voice-avatar">C社</div>
-        <div><div class="voice-company">飲食FC / 代表取締役</div><div class="voice-role">3店舗展開・新規出店検討中</div></div>
-      </div>
-      <div class="result-badge">▶ 出店計画見直しで年600万コスト削減</div>
-      <p class="voice-text">「飲食の出店計画を相談したら、ご自身でニューヨーク出店まで経験している。失敗も成功も知っている人の言葉は重さが違う。おかげで致命的なミスを未然に防げた。本物の名参謀です。」</p>
-      <p class="voice-note">※ご本人の許可を得て掲載</p>
-    </div>
-    <div class="voice-card">
-      <div class="voice-header">
-        <div class="voice-avatar">D社</div>
-        <div><div class="voice-company">IT・システム開発 / 代表</div><div class="voice-role">創業3年・急成長フェーズ</div></div>
-      </div>
-      <div class="result-badge">▶ タイムマネジメント導入で幹部残業50%削減</div>
-      <p class="voice-text">「役員全員でタイムマネジメントセミナーを受けた。『時間を守る』ではなく『時間を創造する』という発想転換が経営チームの共通言語になった。意思決定の速度が体感で3倍になっています。」</p>
-      <p class="voice-note">※ご本人の許可を得て掲載</p>
-    </div>
-  </div>
-  <div class="voice-wide fade-in">
-    <span class="voice-quote">"</span>
-    <p class="voice-wide-text">矢部さんの最大の特徴は、<strong>「一緒に汗をかいてくれる」</strong>こと。8社を経営し、自ら現場で戦い続けてきた人だから、机上の空論ではなく実戦レベルの話しかしない。成果主義でやってくれるので、経営者として費用対効果に納得して頼める。顧問やコンサルタントに何百万も払って成果ゼロという経験をした方ほど、矢部さんの価値がわかると思います。</p>
-    <div class="voice-wide-name">IT商社 / 代表取締役（年商7億）</div>
-  </div>
-</section>
-
-<!-- BOOKS -->
-<section class="section" id="books">
-  <div class="fade-in">
-    <p class="sec-eyebrow">Publications</p>
-    <h2 class="sec-title">思考とノウハウの体系化</h2>
-  </div>
-  <div class="books-grid fade-in">
-    <div class="book-card">
-      <div class="book-cover"><img src="./time.png" alt="スーパータイムマネジメント" loading="lazy" /></div>
-      <div class="book-info"><p class="book-title">スーパータイムマネジメント</p><a href="https://www.amazon.co.jp/dp/B00D72CLUA/" target="_blank" rel="noopener" class="book-link" onclick="trackConversion('book_time')">Amazonで購入 →</a></div>
-    </div>
-    <div class="book-card">
-      <div class="book-cover"><img src="./tata.png" alt="戦わずして売り続ける 最強営業の法則" loading="lazy" /></div>
-      <div class="book-info"><p class="book-title">戦わずして売り続ける 最強営業の法則</p><a href="https://www.amazon.co.jp/dp/4426111188/" target="_blank" rel="noopener" class="book-link" onclick="trackConversion('book_eigyo')">Amazonで購入 →</a></div>
-    </div>
-    <div class="book-card">
-      <div class="book-cover"><img src="./10oku.png" alt="バク転だけで10億円稼げたわけ" loading="lazy" /></div>
-      <div class="book-info"><p class="book-title">バク転だけで10億円稼げたわけ</p><a href="https://www.amazon.co.jp/dp/4862804594/" target="_blank" rel="noopener" class="book-link" onclick="trackConversion('book_bakuten')">Amazonで購入 →</a></div>
-    </div>
-    <div class="book-card">
-      <div class="book-cover"><img src="./lastlove.png" alt="結局好かれることが最強の武器になる" loading="lazy" /></div>
-      <div class="book-info"><p class="book-title">結局好かれることが最強の武器になる</p><a href="https://www.amazon.co.jp/dp/4867340855/" target="_blank" rel="noopener" class="book-link" onclick="trackConversion('book_sukare')">Amazonで購入 →</a></div>
-    </div>
-  </div>
-</section>
-
-<!-- HISTORY -->
-<section class="section section-alt" id="record">
-  <div class="fade-in">
-    <p class="sec-eyebrow">History</p>
-    <h2 class="sec-title">これまでの歩み</h2>
-  </div>
-  <div class="history-list fade-in">
-    <div class="history-item">
-      <p class="history-year">1993 – 1999</p>
-      <h3 class="history-title">日本大学芸術学部演劇学科 ／ JACスタントマン時代</h3>
-      <p class="history-desc">日本大学芸術学部演劇学科在学中にジャパンアクションクラブ第25期生として入所。俳優・スタントマンとして多数の舞台・映画に出演。肉体と表現の限界に挑み、プロとしての「現場力」を築く。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2000</p>
-      <h3 class="history-title">ビジネスの世界へ</h3>
-      <p class="history-desc">父が経営する(株)クオリティマネジメントへ入社。ITシステム構築・ホームページ制作・セミナー運営に従事。経営トップセミナー講師実績300名超。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2002</p>
-      <h3 class="history-title">株式会社ワーサル 設立・26歳で起業</h3>
-      <p class="history-desc">「大人向けバク転講座」を開講。当初「誰が習うんだ」と笑われたが、潜在ニーズを掘り起こして大ヒット。感動マネジメントの原点となる体験。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2006 –</p>
-      <h3 class="history-title">事業の多角化とグループ拡大</h3>
-      <p class="history-desc">飲食店・人財派遣・システム開発・タレント事務所など次々と新規事業を立ち上げ。8社の経営と年商15億円を実現。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2012</p>
-      <h3 class="history-title">ギネス世界記録 達成</h3>
-      <p class="history-desc">世界同時バク転でギネス世界記録を獲得。「やると決めたらとことん極める」矢部流の生き方を体現。著書『バク転だけで10億円稼げたわけ』のベースとなる。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2016</p>
-      <h3 class="history-title">ニューヨーク進出</h3>
-      <p class="history-desc">マンハッタンにて飲食店「寿海」をオープン。激戦区でのビジネスを通じてグローバルな視点とタフネスを養う。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2020</p>
-      <h3 class="history-title">コロナ禍でのV字回復</h3>
-      <p class="history-desc">イベント事業が大打撃を受けるも、迅速なコスト構造改革とオンライン施策へのピボットを決断。結果として過去最高益を達成。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2021 – 2025</p>
-      <h3 class="history-title">M&A（バイアウト）とPMI完遂</h3>
-      <p class="history-desc">株式譲渡（バイアウト）を実施。4年間、代表として残り組織統合（PMI）を完遂。</p>
-    </div>
-    <div class="history-item">
-      <p class="history-year">2026 – 現在</p>
-      <h3 class="history-title">完全フリーとして再始動</h3>
-      <p class="history-desc">「ご一緒しましょう！」を合言葉に、フリーハンドのプロデューサーとして活動開始。名参謀・講演・新規事業プロデュースなど幅広く活動中。</p>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-section">
-  <p class="cta-eyebrow">Let's Work Together</p>
-  <h2 class="cta-title">一人で悩むのは、もう終わりにしませんか？</h2>
-  <p class="cta-sub">まずは無料30分の壁打ちセッションから。あなたの課題をお聞かせください。</p>
-  <div class="cta-btns">
-    <button class="btn-gold" style="font-size:13px; padding:15px 40px;" onclick="trackConversion('cta_soudan'); window.location.href='#contact'">無料相談を申込む</button>
-    <a href="https://line.me/R/ti/p/%40467esgfi" target="_blank" rel="noopener" onclick="trackConversion('cta_line')">
-      <button class="btn-line" style="font-size:13px; padding:15px 40px;">LINEで直接相談する</button>
-    </a>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="section" id="contact">
-  <div class="fade-in">
-    <p class="sec-eyebrow">Contact</p>
-    <h2 class="sec-title">ご相談窓口</h2>
-  </div>
-  <div class="contact-grid fade-in">
-    <div>
-      <div class="contact-item">
-        <span class="contact-label">LINE公式</span>
-        <span class="contact-val"><a href="https://line.me/R/ti/p/%40467esgfi" target="_blank" rel="noopener" onclick="trackConversion('contact_line')">矢部大 公式LINE「時間革命哲学」</a><br><span style="font-size:12px;color:#888;">気軽にメッセージをどうぞ</span></span>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label">メール</span>
-        <span class="contact-val"><a href="mailto:yabemasaru23@gmail.com" onclick="trackConversion('contact_mail')">yabemasaru23@gmail.com</a></span>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label">Facebook</span>
-        <span class="contact-val"><a href="https://www.facebook.com/masaru009" target="_blank" rel="noopener">facebook.com/masaru009</a></span>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label">フォーム</span>
-        <span class="contact-val"><a href="contact.html" onclick="trackConversion('contact_form')">お問い合わせフォームへ →</a></span>
-      </div>
-    </div>
-    <div class="contact-seeking">
-      <p class="contact-seeking-title">現在、このようなご相談をお待ちしています</p>
-      <ul class="contact-seeking-list">
-        <li>感動マネジメント研修・営業クロージング代行（成果主義）</li>
-        <li>タイムマネジメントセミナー（経営者・幹部向け）</li>
-        <li>経営全般・事業承継の壁打ち・顧問契約</li>
-        <li>AIを活用した営業DX・組織改革</li>
-        <li>陰陽五行を用いた人事・経営戦略</li>
-        <li>講演・基調スピーチのご依頼</li>
+  <!-- ==================== NAV ==================== -->
+  <nav aria-label="メインナビゲーション">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">矢部 <span>大</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">プロフィール</a></li>
+        <li><a href="#services">サービス</a></li>
+        <li><a href="#zerotoone">ゼロイチ哲学</a></li>
+        <li><a href="#books">著書</a></li>
+        <li><a href="#history">歩み</a></li>
+        <li><a href="#voices">お客様の声</a></li>
+        <li><a href="#contact" class="nav-cta" onclick="trackCTA('nav_contact')">無料相談</a></li>
       </ul>
+      <button class="hamburger" aria-label="メニュー" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-  </div>
-</section>
+  </nav>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-logo">矢 部 　大　MASARU YABE</div>
-  <div class="footer-links">
-    <a href="#about">プロフィール</a>
-    <a href="#kandon">感動マネジメント</a>
-    <a href="#time">タイムマネジメント</a>
-    <a href="#personality">素顔</a>
-    <a href="#contact">お問い合わせ</a>
-    <a href="https://japanactionguild.jp/" target="_blank" rel="noopener">Japan Action Guild</a>
-  </div>
-  <p class="footer-copy">© 2026 Masaru Yabe. All Rights Reserved.</p>
-</footer>
+  <!-- ==================== HERO ==================== -->
+  <main>
+    <section aria-label="ヒーロー" style="padding:0;">
+      <div class="hero">
+        <div class="hero-text fade-in">
+          <span class="hero-eyebrow">名参謀 / 経営コンサルタント</span>
+          <h1 class="hero-title">
+            <em>感動マネジメント</em>で<br>
+            売上の壁を<br>突き破る。
+          </h1>
+          <p class="hero-sub">
+            8社経営・年商15億の実戦経営者。<br>
+            「戦わずして売る」哲学を4,000名の経営トップが採用。<br>
+            孤独な経営者の右腕として、あなたの会社の未来を切り拓きます。
+          </p>
+          <div class="hero-btns">
+            <a href="https://line.me/R/ti/p/%40467esgfi"
+               class="btn-primary"
+               onclick="trackCTA('hero_line')"
+               target="_blank" rel="noopener">LINEで無料相談</a>
+            <a href="#about" class="btn-secondary">プロフィールを見る</a>
+          </div>
+        </div>
+        <div class="hero-img-wrap fade-in" style="transition-delay:0.15s;">
+          <img src="https://yabemasaru.site/yabeVORT.jpg"
+               alt="経営コンサルタント 矢部大（やべまさる）"
+               loading="eager"
+               decoding="async"
+               width="480" height="640"
+               style="width:100%;height:auto;max-width:480px;" />
+        </div>
+      </div>
+    </section>
 
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+    <!-- ==================== STATS ==================== -->
+    <div class="stats-bar" role="region" aria-label="実績数値">
+      <div class="stats-inner">
+        <div class="fade-in">
+          <div class="stat-num">8</div>
+          <div class="stat-label">社の経営実績</div>
+        </div>
+        <div class="fade-in" style="transition-delay:0.1s;">
+          <div class="stat-num">15億</div>
+          <div class="stat-label">年商まで育成</div>
+        </div>
+        <div class="fade-in" style="transition-delay:0.2s;">
+          <div class="stat-num">4,000</div>
+          <div class="stat-label">名の経営トップが採用</div>
+        </div>
+        <div class="fade-in" style="transition-delay:0.3s;">
+          <div class="stat-num">300+</div>
+          <div class="stat-label">回のセミナー講師実績</div>
+        </div>
+      </div>
+    </div>
 
+    <!-- ==================== PROFILE ==================== -->
+    <section id="about">
+      <div class="section-inner">
+        <p class="section-eyebrow fade-in">Profile</p>
+        <h2 class="section-title fade-in">「できない」を「できる」に変える。</h2>
+        <div class="profile-grid">
+          <div class="fade-in">
+            <img src="https://yabemasaru.site/yabe03.JPG"
+                 alt="矢部大 プロフィール写真"
+                 class="profile-img"
+                 loading="lazy"
+                 decoding="async"
+                 width="400" height="400"
+                 style="width:100%;height:auto;" />
+          </div>
+          <div class="fade-in" style="transition-delay:0.1s;">
+            <p style="font-size:15px;line-height:1.9;color:var(--ink-muted);margin-bottom:1.5rem;">
+              私の原点は、<strong>日本大学芸術学部演劇学科</strong>在学中に飛び込んだ<strong>ジャパンアクションクラブ（JAC）</strong>でのスタントマン生活です。「燃え盛る炎の中に飛び込む」「高いビルから飛び降りる」——言い訳の通用しない、圧倒的な「現場」がありました。
+            </p>
+            <p style="font-size:15px;line-height:1.9;color:var(--ink-muted);margin-bottom:1.5rem;">
+              その後ビジネスの世界へ。26歳で起業し、<strong>8社を経営・年商15億円</strong>まで会社を育てました。M&AによるExitを経て、2026年、私は再び「個」になりました。
+            </p>
+            <dl class="profile-dl">
+              <dt>学歴</dt><dd>日本大学芸術学部 演劇学科</dd>
+              <dt>出身</dt><dd>東京都八王子市</dd>
+              <dt>起業・経営</dt><dd>26歳起業・8社経営・年商15億</dd>
+              <dt>特技</dt><dd>世界同時バク転（ギネス記録）</dd>
+              <dt>現職</dt><dd>Japan Action Guild 代表理事</dd>
+              <dt>著書</dt><dd>4冊（4,000名の経営トップが採用）</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES ==================== -->
+    <section id="services">
+      <div class="section-inner">
+        <p class="section-eyebrow fade-in">Services</p>
+        <h2 class="section-title fade-in">名参謀として、提供できる価値</h2>
+        <p class="section-lead fade-in">理論だけのコンサルとは違います。必要なら一緒に現場に入り、クロージングの瞬間まで並走します。</p>
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <div class="service-num">01</div>
+            <h3 class="service-title">感動マネジメント営業研修</h3>
+            <p class="service-desc">年商15億を築いた「戦わずして売る」ノウハウ。成果主義・同行営業も対応。成約率を劇的に高めるクロージングの極意を直接伝授・代行します。</p>
+          </div>
+          <div class="service-card fade-in" style="transition-delay:0.1s;">
+            <div class="service-num">02</div>
+            <h3 class="service-title">タイムマネジメントセミナー</h3>
+            <p class="service-desc">「時間を創造する」経営哲学を組織全体に浸透させる。経営者・幹部向けセミナーで意思決定の質とスピードを根本から変革します。</p>
+          </div>
+          <div class="service-card fade-in" style="transition-delay:0.2s;">
+            <div class="service-num">03</div>
+            <h3 class="service-title">名参謀（顧問・壁打ち）</h3>
+            <p class="service-desc">経営全般・事業承継・M&A・新規事業・人財育成。8社の経営実績で培ったリアルなノウハウを、孤独な経営者の右腕として提供します。</p>
+          </div>
+          <div class="service-card fade-in" style="transition-delay:0.3s;">
+            <div class="service-num">04</div>
+            <h3 class="service-title">AIを活用した営業DX</h3>
+            <p class="service-desc">AIによる精度の高いリスト作成・アプローチの自動化など、最新テクノロジーを駆使して「勝てる営業組織」の基盤を構築します。</p>
+          </div>
+          <div class="service-card fade-in" style="transition-delay:0.4s;">
+            <div class="service-num">05</div>
+            <h3 class="service-title">陰陽五行 ビジネス帝王学</h3>
+            <p class="service-desc">経営は「タイミング」と「人」がすべて。数千年の知見を用い、攻める時期・引く時期・最適な人材配置を戦略的にアドバイスします。</p>
+          </div>
+          <div class="service-card fade-in" style="transition-delay:0.5s;">
+            <div class="service-num">06</div>
+            <h3 class="service-title">講演・基調スピーチ</h3>
+            <p class="service-desc">バク転ギネス記録保持者の圧倒的な実体験から生まれる言葉。経営者団体・業界団体・企業研修など、場の空気を変える講演をお届けします。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ZERO TO ONE ==================== -->
+    <section id="zerotoone" style="background:var(--ink);color:#fff;">
+      <div class="section-inner">
+        <p class="section-eyebrow fade-in" style="color:var(--gold-light);">Zero to One</p>
+        <h2 class="section-title fade-in" style="color:#fff;">なぜ矢部大は、<br>ゼロからイチをつくれるのか？</h2>
+        <p class="section-lead fade-in" style="color:rgba(255,255,255,0.65);">
+          既存市場を奪い合うのではなく、まだ誰も気づいていない「欲求」を掘り起こし、感動体験に変換して市場を創る。それが矢部流の起業哲学です。
+        </p>
+
+        <!-- 3カード -->
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:3rem;" class="zerotoone-grid">
+
+          <div class="fade-in" style="border:0.5px solid rgba(255,255,255,0.15);border-radius:4px;padding:2rem 1.5rem;">
+            <div style="font-family:var(--font-serif);font-size:36px;color:var(--gold-light);font-weight:700;line-height:1;margin-bottom:1rem;">01</div>
+            <h3 style="font-size:15px;font-weight:700;color:#fff;margin-bottom:0.8rem;">大人のためのバク転講座</h3>
+            <p style="font-size:13px;color:rgba(255,255,255,0.6);line-height:1.85;">
+              「バク転を習いたい大人」ではなく、<strong style="color:rgba(255,255,255,0.9);">「人生でやり残した夢を取り戻したい大人」</strong>に届けた。欲求の本質を見抜き、感情に語りかけるストーリーを設計したことで、笑われた講座が大ヒットビジネスに。<br><br>
+              <span style="color:var(--gold-light);font-weight:700;">「誰が買うのか」ではなく「なぜ欲しいのか」——</span>この問いが矢部式ゼロイチの出発点。
+            </p>
+          </div>
+
+          <div class="fade-in" style="border:0.5px solid rgba(255,255,255,0.15);border-radius:4px;padding:2rem 1.5rem;transition-delay:0.1s;">
+            <div style="font-family:var(--font-serif);font-size:36px;color:var(--gold-light);font-weight:700;line-height:1;margin-bottom:1rem;">02</div>
+            <h3 style="font-size:15px;font-weight:700;color:#fff;margin-bottom:0.8rem;">忍者ビジネス――先見の明でインバウンドを先取り</h3>
+            <p style="font-size:13px;color:rgba(255,255,255,0.6);line-height:1.85;">
+              訪日外国人が急増する前夜に、いち早く情報をキャッチ。「日本の伝統体験」への潜在需要を読み切り、<strong style="color:rgba(255,255,255,0.9);">忍者衣装・手裏剣体験・アクションショーを本格的にパッケージ化</strong>した。<br><br>
+              ホテル・旅行会社・メディアへの展開も、インバウンドブームが本格化する前に完了。<span style="color:var(--gold-light);font-weight:700;">「波が来る前に乗り込む」</span>——矢部の高い情報感度と決断力が凝縮された事業。
+            </p>
+          </div>
+
+          <div class="fade-in" style="border:0.5px solid rgba(255,255,255,0.15);border-radius:4px;padding:2rem 1.5rem;transition-delay:0.2s;">
+            <div style="font-family:var(--font-serif);font-size:36px;color:var(--gold-light);font-weight:700;line-height:1;margin-bottom:1rem;">03</div>
+            <h3 style="font-size:15px;font-weight:700;color:#fff;margin-bottom:0.8rem;">逆転発想術――常識の逆を行く</h3>
+            <p style="font-size:13px;color:rgba(255,255,255,0.6);line-height:1.85;">
+              矢部の事業はすべて「常識の逆」から生まれている。<br><br>
+              <span style="color:var(--gold-light);font-weight:700;">「バク転は子どものもの」→ 大人向けに展開</span><br>
+              <span style="color:var(--gold-light);font-weight:700;">「忍者は観光地のコスプレ」→ 本格体験ビジネスへ</span><br>
+              <span style="color:var(--gold-light);font-weight:700;">「コンサルは理論を語る」→ 現場で一緒に汗をかく</span><br><br>
+              「みんながやっている」ことを疑い、<strong style="color:rgba(255,255,255,0.9);">誰もが当たり前だと思っている前提をひっくり返す</strong>——この逆転発想こそが、矢部がゼロからイチをつくり続ける最大の武器です。
+            </p>
+          </div>
+
+        </div>
+
+        <div style="text-align:center;" class="fade-in">
+          <a href="https://line.me/R/ti/p/%40467esgfi" target="_blank" rel="noopener"
+             onclick="trackCTA('zerotoone_line')"
+             style="display:inline-block;background:var(--gold);color:var(--ink);padding:14px 36px;border-radius:4px;font-size:14px;font-weight:700;letter-spacing:0.05em;transition:opacity 0.2s;">
+            ゼロイチの可能性を相談する
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BOOKS ==================== -->
+    <section id="books">
+      <div class="section-inner">
+        <p class="section-eyebrow fade-in">Publications</p>
+        <h2 class="section-title fade-in">思考とノウハウの体系化</h2>
+        <div class="books-grid">
+          <div class="book-card fade-in">
+            <img src="https://yabemasaru.site/time.png" alt="スーパータイムマネジメント 矢部大著" loading="lazy" />
+            <div class="book-info">
+              <p class="book-title">スーパータイムマネジメント</p>
+              <a href="https://www.amazon.co.jp/dp/B00D72CLUA/" target="_blank" rel="noopener" class="book-link" onclick="trackCTA('book_time')">Amazonで購入</a>
+            </div>
+          </div>
+          <div class="book-card fade-in" style="transition-delay:0.1s;">
+            <img src="https://yabemasaru.site/tata.png" alt="戦わずして売り続ける 最強営業の法則 矢部大著" loading="lazy" />
+            <div class="book-info">
+              <p class="book-title">戦わずして売り続ける 最強営業の法則</p>
+              <a href="https://www.amazon.co.jp/dp/4426111188/" target="_blank" rel="noopener" class="book-link" onclick="trackCTA('book_sales')">Amazonで購入</a>
+            </div>
+          </div>
+          <div class="book-card fade-in" style="transition-delay:0.2s;">
+            <img src="https://yabemasaru.site/10oku.png" alt="バク転だけで10億円稼げたわけ 矢部大著" loading="lazy" />
+            <div class="book-info">
+              <p class="book-title">バク転だけで10億円稼げたわけ</p>
+              <a href="https://www.amazon.co.jp/dp/4862804594/" target="_blank" rel="noopener" class="book-link" onclick="trackCTA('book_bakuten')">Amazonで購入</a>
+            </div>
+          </div>
+          <div class="book-card fade-in" style="transition-delay:0.3s;">
+            <img src="https://yabemasaru.site/lastlove.png" alt="結局好かれることが最強の武器になる 矢部大著" loading="lazy" />
+            <div class="book-info">
+              <p class="book-title">結局好かれることが最強の武器になる</p>
+              <a href="https://www.amazon.co.jp/dp/4867340855/" target="_blank" rel="noopener" class="book-link" onclick="trackCTA('book_love')">Amazonで購入</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HISTORY ==================== -->
+    <section id="history">
+      <div class="section-inner">
+        <p class="section-eyebrow fade-in">History</p>
+        <h2 class="section-title fade-in">これまでの歩み</h2>
+        <div class="timeline">
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">1993 – 1999</p>
+            <p class="timeline-title">日本大学芸術学部演劇学科 ／ JACスタントマン時代</p>
+            <p class="timeline-desc">ジャパンアクションクラブ第25期生として入所。俳優・スタントマンとして多数の舞台・映画に出演。肉体と表現の限界に挑み、「現場力」を築く。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2000</p>
+            <p class="timeline-title">ビジネスの世界へ</p>
+            <p class="timeline-desc">感動経営のコンサルティング会社・<strong>株式会社クオリティマネジメント</strong>へ入社。ITシステム構築・ホームページ制作・セミナー運営に従事。経営トップセミナー講師実績300名超。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2002</p>
+            <p class="timeline-title">株式会社ワーサル 設立・26歳で起業</p>
+            <p class="timeline-desc">
+              「大人向けバク転講座」を開講。当初は周囲から「誰が習うんだ」と笑われた。しかし矢部は気づいていた——<strong>「大人がバク転をしたい」という欲求は、実は"子どもの頃の夢をもう一度"という深い感情だ</strong>、と。<br><br>
+              ターゲットは「バク転を習いたい人」ではなく、「人生のどこかでやり残したことを取り戻したい大人」。このストーリー設計が口コミを生み、たった一つの講座から事業は急成長。<br>
+              <em>これが「感動マネジメント」の原点。</em>
+            </p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2004 –</p>
+            <p class="timeline-title">忍者ビジネスの開拓――先見の明でインバウンドを先取り</p>
+            <p class="timeline-desc">
+              「忍者」をテーマにした体験型エンターテインメント事業を展開。市場はすでに存在していたが、<strong>訪日外国人が急増する前夜にいち早く情報をキャッチし、誰よりも早く本格的なビジネスとして体系化した</strong>のが矢部の先見の明だった。<br><br>
+              忍者衣装・手裏剣体験・アクションショーをパッケージ化し、ホテル・旅行会社・メディアへ積極展開。インバウンドブームが本格化する前に市場のポジションを確立——<em>「波が来る前に乗り込む」矢部流の情報感度と行動力</em>が凝縮された事業。
+            </p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2006 –</p>
+            <p class="timeline-title">事業の多角化とグループ拡大</p>
+            <p class="timeline-desc">飲食店・人財派遣・システム開発・タレント事務所など次々と新規事業を立ち上げ。8社の経営と年商15億円を実現。バク転・忍者で培った「感動体験の設計力」をあらゆる業種に応用。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2012</p>
+            <p class="timeline-title">ギネス世界記録 達成</p>
+            <p class="timeline-desc">世界同時バク転でギネス世界記録を獲得。著書『バク転だけで10億円稼げたわけ』のベースとなる。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2016</p>
+            <p class="timeline-title">ニューヨーク進出</p>
+            <p class="timeline-desc">マンハッタンにて飲食店「寿海」をオープン。激戦区でのビジネスを通じてグローバルな視点とタフネスを養う。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2020</p>
+            <p class="timeline-title">コロナ禍でのV字回復</p>
+            <p class="timeline-desc">イベント事業が大打撃を受けるも、迅速なコスト構造改革とオンライン施策へのピボットを決断。過去最高益を達成。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2021 – 2025</p>
+            <p class="timeline-title">M&A（バイアウト）とPMI完遂</p>
+            <p class="timeline-desc">株式譲渡（バイアウト）を実施。4年間、代表として残り組織統合（PMI）を完遂。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">2026 – 現在</p>
+            <p class="timeline-title">完全フリーとして再始動</p>
+            <p class="timeline-desc">「ご一緒しましょう！」を合言葉に、フリーハンドのプロデューサーとして活動開始。名参謀・講演・新規事業プロデュースなど幅広く活動中。</p>
+          </div>
+          <div class="timeline-item fade-in">
+            <p class="timeline-year">現在進行中</p>
+            <p class="timeline-title">Japan Action Guild ── 芸能従事者への安心・安全を届ける</p>
+            <p class="timeline-desc">
+              Japan Action Guild 代表理事として、<strong>芸能従事者向けの労災保険組合を設置</strong>。スタントマン・アクション俳優・エンターテイナーなど、これまで十分な安全網がなかった芸能現場の従事者が、安心して活動できる環境づくりに力を注ぐ。<br><br>
+              「命を懸けた現場」を自ら経験してきたからこそ、届けられる安心がある。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VOICES ==================== -->
+    <section id="voices">
+      <div class="section-inner">
+        <p class="section-eyebrow fade-in">Client Voices</p>
+        <h2 class="section-title fade-in">「この人に頼んで、本当に良かった」</h2>
+        <div class="voices-grid">
+          <div class="voice-card fade-in">
+            <span class="voice-result">成約率3倍・売上1.8倍達成</span>
+            <p class="voice-text">矢部さんは口だけじゃなく、一緒に営業現場に入ってくれた。何度も失注していた大口案件を、矢部さんが同行した翌日に受注できた。感動マネジメントが何なのか、現場で体感しました。</p>
+            <p class="voice-meta">建設業 / 代表取締役（年商2億・社員18名）</p>
+          </div>
+          <div class="voice-card fade-in" style="transition-delay:0.1s;">
+            <span class="voice-result">新規顧客獲得数 前年比2.4倍</span>
+            <p class="voice-text">理論だけのコンサルに嫌気がさしていた時に矢部さんと出会った。成果報酬型でリスクなく始められ、実際に数字が出た。経営者経験者ならではの「現場感」が営業チームを根本から変えてくれた。</p>
+            <p class="voice-meta">人材派遣業 / 創業者（社員40名・事業拡大フェーズ）</p>
+          </div>
+          <div class="voice-card fade-in">
+            <span class="voice-result">出店計画見直しで年600万コスト削減</span>
+            <p class="voice-text">飲食の出店計画を相談したら、ご自身でニューヨーク出店まで経験している。失敗も成功も知っている人の言葉は重さが違う。おかげで致命的なミスを未然に防げた。本物の名参謀です。</p>
+            <p class="voice-meta">飲食FC / 代表取締役（3店舗展開）</p>
+          </div>
+          <div class="voice-card fade-in" style="transition-delay:0.1s;">
+            <span class="voice-result">幹部残業50%削減・意思決定速度3倍</span>
+            <p class="voice-text">役員全員でタイムマネジメントセミナーを受けた。「時間を守る」ではなく「時間を創造する」という発想転換が経営チームの共通言語になった。意思決定の速度が体感で3倍になっています。</p>
+            <p class="voice-meta">IT・システム開発 / 代表（創業3年・急成長フェーズ）</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SNS ==================== -->
+    <section id="sns" style="padding:0;">
+      <div class="sns-inner">
+        <p class="sns-title fade-in">公式SNS・ブログ</p>
+        <div class="sns-links fade-in">
+          <a href="https://www.instagram.com/masaru_yabe/" target="_blank" rel="noopener" class="sns-link" onclick="trackCTA('sns_instagram')">
+            <svg class="sns-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagram
+          </a>
+          <a href="https://x.com/yabemasaru23" target="_blank" rel="noopener" class="sns-link" onclick="trackCTA('sns_x')">
+            <svg class="sns-icon" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            X (Twitter)
+          </a>
+          <a href="https://www.facebook.com/yabe.masaru/" target="_blank" rel="noopener" class="sns-link" onclick="trackCTA('sns_facebook')">
+            <svg class="sns-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </a>
+          <a href="https://ameblo.jp/masaru23/" target="_blank" rel="noopener" class="sns-link" onclick="trackCTA('sns_ameblo')">
+            <svg class="sns-icon" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm0 20c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+            Ameba Blog
+          </a>
+          <a href="https://line.me/R/ti/p/%40467esgfi" target="_blank" rel="noopener" class="sns-link" onclick="trackCTA('sns_line')">
+            <svg class="sns-icon" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.121.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967C23.393 13.868 24 12.164 24 10.304z"/></svg>
+            LINE公式
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section id="contact">
+      <div class="section-inner">
+        <div class="cta-box fade-in">
+          <h2 class="cta-title">一人で悩むのは、<br>もう終わりにしませんか？</h2>
+          <p class="cta-desc">まずは無料30分の壁打ちセッションから。<br>あなたの課題をお聞かせください。</p>
+          <div class="cta-btns">
+            <a href="https://line.me/R/ti/p/%40467esgfi"
+               class="btn-primary"
+               target="_blank" rel="noopener"
+               onclick="trackCTA('cta_line')">LINEで無料相談する</a>
+            <a href="https://yabemasaru.site/contact.html"
+               class="btn-secondary"
+               onclick="trackCTA('cta_form')">お問い合わせフォーム</a>
+          </div>
+          <p class="cta-email">メール：<a href="mailto:yabemasaru23@gmail.com">yabemasaru23@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <p class="footer-name">矢部 大　MASARU YABE</p>
+    <p style="margin-bottom:0.8rem;">
+      <a href="#about">プロフィール</a>
+      <a href="#services">サービス</a>
+      <a href="#books">著書</a>
+      <a href="#contact">お問い合わせ</a>
+      <a href="https://japanactionguild.jp/" target="_blank" rel="noopener">Japan Action Guild</a>
+    </p>
+    <p>© 2026 Masaru Yabe. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ==================== JS: Scroll Fade & Hamburger ==================== -->
+  <script>
+    // Scroll fade-in
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+    }, { threshold: 0.12 });
+    fadeEls.forEach(el => observer.observe(el));
+
+    // Hamburger menu (mobile)
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+    hamburger.addEventListener('click', () => {
+      const open = navLinks.style.display === 'flex';
+      navLinks.style.display = open ? 'none' : 'flex';
+      navLinks.style.flexDirection = 'column';
+      navLinks.style.position = 'absolute';
+      navLinks.style.top = '60px';
+      navLinks.style.left = '0';
+      navLinks.style.right = '0';
+      navLinks.style.background = 'var(--cream)';
+      navLinks.style.padding = '1rem 1.5rem';
+      navLinks.style.borderBottom = '0.5px solid var(--border)';
+      navLinks.style.zIndex = '99';
+      if (open) navLinks.style.display = 'none';
+    });
+
+    // GA4: スクロール深度イベント（25%, 50%, 75%, 100%）
+    const scrollDepths = [25, 50, 75, 100];
+    const firedDepths = new Set();
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const pct = Math.round((scrollTop / docHeight) * 100);
+      scrollDepths.forEach(d => {
+        if (pct >= d && !firedDepths.has(d)) {
+          firedDepths.add(d);
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'scroll_depth', { depth_percent: d });
+          }
+        }
+      });
+    });
+  </script>
 </body>
 </html>
